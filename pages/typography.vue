@@ -26,6 +26,7 @@
     br
     a.agcap-btn(href="/typography")
       |BUTTONS LOOK LIKE THIS
+      i.fas.fa-caret-right
     br
     a(href="/typography")
       |a. Nymphs blitz quick vex dwarf jog.
@@ -55,6 +56,7 @@
     br
     a.agcap-btn(href="/typography")
       |BUTTONS LOOK<br/>LIKE THIS
+      i.fas.fa-caret-right
     br
     a(href="/typography")
       |a. Nymphs blitz<br/>quick vex dwarf jog.
