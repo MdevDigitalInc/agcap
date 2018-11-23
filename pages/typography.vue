@@ -1,6 +1,6 @@
 <template lang="pug">
   .typography-page
-    h1
+    h1.u-bg-navy
       |h1. Nymphs blitz quick vex dwarf jog.
     h2
       |h2. Nymphs blitz quick vex dwarf jog.
