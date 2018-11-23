@@ -61,4 +61,17 @@
     br
     a(href="/typography")
       |a. Nymphs blitz<br/>quick vex dwarf jog.
+    br
+    br
+    br
+    span
+      |HORIZONTAL LINE TEST:
+    .agcap-title-example
+      h2
+        |h2. Nymphs blitz quick vex dwarf jog.
+      .agcap-title-line
+    .agcap-title-example
+      h4
+        |h4. Nymphs blitz quick vex dwarf jog.
+      .agcap-title-line
 </template>

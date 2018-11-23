@@ -1,13 +1,9 @@
-.typography-page {
-  background: $color-agcap-grey;
+/*
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p,
-  a {
-    padding: 10px;
-  }
-}
+  Master Import for AGCAP module, component, etc. styles 
+
+  Add more here rather than importing into the global-main
+
+*/
+
+@import './agcap-global.scss';

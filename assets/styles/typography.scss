@@ -37,7 +37,6 @@ h4,.h4,
 h5,.h5,
 h6,.h6, {
   font-family: $main-font;
-  margin-bottom: 25px;
 }
 
 // Responsive Font Size Maps
@@ -107,7 +106,6 @@ p {
   line-height: 100%;
   font-weight: 300;
   color: $color-agcap-body;
-  margin-bottom: 15px;
   @include font-size($p-font-sizes);
 
   b {
@@ -181,3 +179,37 @@ a {
     color: inherit;
   }
 }
+
+/* The following styles are for pre-dev only: */
+
+.typography-page {
+  // To give white text something to stand on
+  background: $color-agcap-grey;
+
+  // Padding for visibility
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    padding: 15px;
+  }
+
+  // This is specifically to showcase the underlined title styles, strips some default styles on purpose
+
+  .agcap-title-example {
+    margin: 50px 30px;
+    border: 1px solid #000;
+    width: 50%;
+    padding: 35px;
+
+    h2,
+    h4 {
+      padding: 0;
+    }
+  }
+}
+
+/* End of pre-dev styles */
