@@ -2,11 +2,23 @@
  *	TYPOGRAPHY
 /-------------------------------------*/
 
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
+$main-font: 'Libre Baskerville', serif;
+$heading-weight: 400;
+$heading-bold: 700;
+
+$spec-font: 'ProximaNova', sans-serif;
+$spec-weight: 300;
+$spec-bold: 500;
+
 /* Main */
 body {
-  font-family: $main-font;
+  font-family: $spec-font;
   font-size: 16px;
-  color: $black;
+  color: $color-agcap-navy;
 }
 
 /* Headings & Body Copy */
@@ -22,57 +34,51 @@ h4,.h4,
 h5,.h5,
 h6,.h6, {
   font-family: $main-font;
-  font-weight: 700;
-  color: inherit;
   margin-bottom: 25px;
 }
 
 // Responsive Font Size Maps
+
 $p-font-sizes: (
-  null  : 20px,
-  $tablet-up  : 1.15vw,
-  $tablet-lnd-only : 1.4vw,
-  $laptop-only : 1.4vw,
-  $portrait : 4vw,
-  $phone-only : 6vw
+  null  : 15px,
+  $tablet-up  : 20px
 );
 
 $h1-font-sizes: (
-  null  : 2.5vw,
-  $portrait : 5.3vw,
-  $laptop-only : 3vw,
-  $phone-only: 8vw
+  null  : 30px,
+  $tablet-up  : 40px
 );
 
 $h2-font-sizes: (
-  null  : 60px,
-  $portrait: 55px
+  null  : 22px,
+  $tablet-up  : 30px
 );
 
 $h3-font-sizes: (
-  null  : 1.6vw,
-  $portrait: 5vw,
-  $phone-only: 6vw
+  null  : 35px,
+  $tablet-up  : 45px
 );
 
 $h4-font-sizes: (
-  null  : 22px,
-  $portrait: 18px
+  null  : 18px,
+  $tablet-up  : 24px
 );
 
 $h5-font-sizes: (
-  null  : 14px
+  null  : 15px,
+  $tablet-up  : 20px
 );
 
 $h6-font-sizes: (
-  null  : 10px
+  null  : 15px,
+  $tablet-up  : 20px
 );
 
-// Links
-$link-font-sizes: (
-  null  : 16px,
-  $tablet-up : 17px,
-  $desktop-up: 18px
+// Buttons
+
+$button-font-sizes: (
+  null  : 15px,
+  $tablet-up  : 20px
 );
 
 // Responsive Font-Size Mixing (Function Only)
@@ -94,46 +100,55 @@ $link-font-sizes: (
 /* Generate Responsive Sizing */
 
 p {
-  line-height: 180%;
-  font-weight: 400;
+  line-height: 100%;
+  font-weight: 300;
+  color: $color-agcap-body;
+  margin-bottom: 5px;
   @include font-size($p-font-sizes);
 
-  @media #{$phone-only} {
-    line-height: 150%;
+  b {
+    font-weight: $spec-bold;
+  }
+
+  em {
+    font-family: italic;
   }
 }
 
 h1,
 .h1 {
+  color: $white;
+  font-weight: $heading-bold;
   @include font-size($h1-font-sizes);
 }
 
 h2,
 .h2 {
+  color: $color-agcap-navy;
+  font-weight: $heading-bold;
   @include font-size($h2-font-sizes);
 }
 
 h3,
 .h3 {
+  color: $color-agcap-navy;
+  font-weight: $heading-bold;
   @include font-size($h3-font-sizes);
-  letter-spacing: 5px;
-
-  @media #{$portrait} {
-    line-height: 120%;
-  }
-
-  @media #{$tablet-lnd-only} {
-    letter-spacing: 2px;
-  }
 }
 
 h4,
 .h4 {
+  color: $color-agcap-body;
+  font-weight: $heading-weight;
   @include font-size($h4-font-sizes);
 }
 
 h5,
 .h5 {
+  font-family: $spec-font;
+  text-transform: uppercase;
+  color: $color-agcap-blue;
+  font-weight: $spec-bold;
   @include font-size($h5-font-sizes);
 }
 
@@ -142,13 +157,14 @@ h6,
   @include font-size($h6-font-sizes);
 }
 
-.mdev-main-nav-links {
-  @include font-size($link-font-sizes);
+.agcap-btn {
+  @include font-size($button-font-sizes);
 }
 
 /* Link Reset / Base Inherit */
+
 a {
-  font-family: $main-font;
+  font-family: $spec-font;
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -158,11 +174,4 @@ a {
     text-decoration: none;
     color: inherit;
   }
-}
-
-.mdev-hero-text {
-  @include font-size($h1-font-sizes);
-  line-height: 120%;
-  color: $color-brand-primary;
-  font-weight: 700;
 }
