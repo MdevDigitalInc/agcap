@@ -25,7 +25,7 @@
       |p b em. Nymphs <b>blitz quick</b> vex <em>dwarf jog</em>.
     br
     a.agcap-btn(href="/typography")
-      |BUTTON LOOKS LIKE THIS
+      |BUTTONS LOOK LIKE THIS
     br
     a(href="/typography")
       |a. Nymphs blitz quick vex dwarf jog.
@@ -54,7 +54,7 @@
       |p b em. Nymphs <b>blitz quick</b><br/>vex <em>dwarf jog</em>.
     br
     a.agcap-btn(href="/typography")
-      |BUTTON LOOKS<br/>LIKE THIS
+      |BUTTONS LOOK<br/>LIKE THIS
     br
     a(href="/typography")
       |a. Nymphs blitz<br/>quick vex dwarf jog.
