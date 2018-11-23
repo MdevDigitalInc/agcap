@@ -197,6 +197,18 @@ a {
     padding: 15px;
   }
 
+  // Typography span styles, acts as section seperator
+  span {
+    margin: 30px 0;
+    background: $color-agcap-red;
+    width: 100%;
+    color: $color-agcap-grey;
+    font-weight: $spec-bold;
+    font-size: 24px;
+    display: block;
+    padding: 3px 5px;
+  }
+
   // This is specifically to showcase the underlined title styles, strips some default styles on purpose
 
   .agcap-title-example {

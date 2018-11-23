@@ -1,13 +1,15 @@
 <template lang="pug">
   .navigation
     nuxt-link(to="/")
-      |Home&nbsp;
+      |Home&nbsp;&nbsp;
     nuxt-link(to="/about")
-      |About&nbsp;
+      |About&nbsp;&nbsp;
     nuxt-link(to="/approach")
-      |Approach&nbsp;
+      |Approach&nbsp;&nbsp;
     nuxt-link(to="/grow")
-      |Grow&nbsp;
+      |Grow&nbsp;&nbsp;
     nuxt-link(to="/contact")
-      |Contact
+      |Contact&nbsp;&nbsp;
+    nuxt-link(to="/typography")
+      |Typography
 </template>

@@ -1,5 +1,8 @@
 <template lang="pug">
   .typography-page
+    // Default Test
+    span
+      |DEFAULT TEST:
     h1.u-bg-navy
       |h1. Nymphs blitz quick vex dwarf jog.
     h1.u-navy
@@ -27,14 +30,8 @@
     a(href="/typography")
       |a. Nymphs blitz quick vex dwarf jog.
     // Line Spacing Test
-    br
-    br
-    br
     span
       |LINE BREAK TEST:
-    br
-    br
-    br
     h1.u-bg-navy
       |h1. Nymphs blitz<br/>quick vex dwarf jog.
     h1.u-navy
@@ -61,9 +58,6 @@
     br
     a(href="/typography")
       |a. Nymphs blitz<br/>quick vex dwarf jog.
-    br
-    br
-    br
     span
       |HORIZONTAL LINE TEST:
     .agcap-title-example
