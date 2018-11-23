@@ -150,7 +150,8 @@
 
 // Body Utilities
 .--body-medium {
-  font-family: italic;
+  font-style: italic;
+  font-weight: $spec-italic;
   font-size: 18px;
 
   @media #{$tablet-up} {

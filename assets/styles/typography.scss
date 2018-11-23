@@ -10,13 +10,16 @@ $main-font: 'Libre Baskerville', serif;
 $heading-weight: 400;
 $heading-bold: 700;
 
-$spec-font: 'ProximaNova', sans-serif;
-$spec-weight: 300;
-$spec-bold: 500;
+$spec-font: proxima-nova, sans-serif;
+$spec-italic: 300;
+$spec-weight: 400;
+$spec-bold: 600;
+
 
 /* Main */
 body {
   font-family: $spec-font;
+  font-style: normal;
   font-size: 16px;
   color: $color-agcap-navy;
 }
@@ -99,11 +102,12 @@ $button-font-sizes: (
 
 /* Generate Responsive Sizing */
 
+a,
 p {
   line-height: 100%;
   font-weight: 300;
   color: $color-agcap-body;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   @include font-size($p-font-sizes);
 
   b {
@@ -111,8 +115,13 @@ p {
   }
 
   em {
-    font-family: italic;
+    font-weight: $spec-italic;
+    font-style: italic;
   }
+}
+
+a {
+  cursor: pointer;
 }
 
 h1,
@@ -165,9 +174,6 @@ h6,
 
 a {
   font-family: $spec-font;
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
   text-decoration: inherit;
 
   &:hover {

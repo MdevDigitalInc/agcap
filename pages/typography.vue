@@ -13,14 +13,15 @@
     p
       |p. Nymphs blitz quick vex dwarf jog.
     p.--body-medium
-      |p. Nymphs blitz quick vex dwarf jog.
+      |p medium. Nymphs blitz quick vex dwarf jog.
     p.--body-large
-      |p. Nymphs blitz quick vex dwarf jog.
+      |p large. Nymphs blitz quick vex dwarf jog.
     p
-      |p. Nymphs <b>blitz quick</b> vex <em>dwarf jog</em>.
-    a
-      |a. Nymphs blitz quick vex dwarf jog.
+      |p b em. Nymphs <b>blitz quick</b> vex <em>dwarf jog</em>.
     br
-    a.agcap-btn
+    a.agcap-btn(href="/typography")
       |BUTTON LOOKS LIKE THIS
+    br
+    a(href="/typography")
+      |a. Nymphs blitz quick vex dwarf jog.
 </template>
