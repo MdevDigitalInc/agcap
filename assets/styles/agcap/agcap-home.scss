@@ -1,0 +1,131 @@
+.agc-home-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .agc-home-bg {
+    background: $color-agcap-blue;
+    opacity: .15;
+    z-index: -99;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;   
+
+    @media #{$laptop-up} {
+      left: 50%;
+      top: 0;
+      height: 100%;
+      width: 50%;
+    }
+  }
+}
+
+// HERO SECTION
+
+.agc-hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+.agc-hero-panel {
+  max-height: 800px;
+  background: $color-agcap-navy;
+  position: absolute;
+  top: 0;
+  z-index: -50;
+  width: 100%;
+  height: vw-phone(275);
+  left: 0;
+
+  @media #{$tablet-only} {
+    width: 100%;
+    height: vw-tablet(435);
+    left: 0;
+  }
+
+  @media #{$laptop-only} {
+    width: 92vw;
+    height: vw-laptop(600);
+    left: 8vw;
+  }
+
+  @media #{$desktop-up} {
+    width: 92vw;
+    height: vw-desktop(800);
+    left: 8vw;
+  }
+}
+
+.agc-hero-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 25px;
+  margin: 45px 0 0 8%;
+
+  @media #{$tablet-only} {
+    padding: 0 0 10px;
+    margin: 60px 0 0 7%;
+  }
+
+  @media #{$laptop-up} {
+    padding: 0 0 25px vw-laptop(100);
+    margin: 85px 0 0 8%;
+  }
+
+  @media #{$desktop-up} {
+    padding: 0 0 25px vw-desktop(150);
+    margin: 85px 0 0 8%;
+  }
+}
+
+.agc-hero-image {
+  position: relative;
+  max-width: 1440px;
+  width: 200%;
+  left: -50%;
+  margin: 0;
+
+  @media #{$tablet-only} {
+    width: 86%;
+    left: 0;
+    margin: 0 7%;
+  }
+
+  @media #{$laptop-only} {
+    width: 75%;
+    left: vw-laptop(100);
+    margin: 0 0 0 8%;
+  }
+
+  @media #{$desktop-up} {
+    width: 75%;
+    left: vw-desktop(150);
+    margin: 0 0 0 8%;
+  }
+}
+
+// NEXT SECTION todo AW
+
+.agc-morecontent {
+  padding: 10vh 10vw;
+  background: #000;
+}

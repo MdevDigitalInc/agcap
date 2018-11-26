@@ -107,6 +107,7 @@ p {
   font-weight: 300;
   color: $color-agcap-body;
   @include font-size($p-font-sizes);
+  margin-bottom: 15px;
 
   b {
     font-weight: $spec-bold;
@@ -127,6 +128,7 @@ h1,
   color: $white;
   font-weight: $heading-bold;
   @include font-size($h1-font-sizes);
+  margin-bottom: 15px;
 }
 
 h2,
@@ -157,6 +159,7 @@ h5,
   color: $color-agcap-blue;
   font-weight: $spec-bold;
   @include font-size($h5-font-sizes);
+  margin-bottom: 15px;
 }
 
 h6,
