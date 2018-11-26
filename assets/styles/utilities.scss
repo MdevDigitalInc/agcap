@@ -123,23 +123,62 @@
 }
 
 // Color Utilities
-.u-c-black {
-  color: $color-brand-bkg;
+
+.u-red {
+  color: $color-agcap-red;
 }
 
-.u-c-accent {
-  color: $color-brand-accent;
+.u-blue {
+  color: $color-agcap-blue;
 }
 
-.u-c-primary {
-  color: $color-brand-primary;
+.u-navy {
+  color: $color-agcap-navy;
 }
 
-.u-c-white {
+.u-grey {
+  color: $color-agcap-grey;
+}
+
+.u-white {
   color: $white;
 }
 
+.u-black {
+  color: $black;
+}
+
+.u-bg-red {
+  background-color: $color-agcap-red;
+}
+
+.u-bg-blue {
+  background-color: $color-agcap-blue;
+}
+
+.u-bg-navy {
+  background-color: $color-agcap-navy;
+}
+
+.u-bg-grey {
+  background-color: $color-agcap-grey;
+}
+
 // Body Utilities
-.--body-white {
-  background: $white;
+.--body-medium {
+  font-style: italic;
+  font-weight: $spec-italic;
+  font-size: 18px;
+
+  @media #{$tablet-up} {
+    font-size: 24px;
+  }
+}
+
+.--body-large {
+  font-size: 22px;
+
+  @media #{$tablet-up} {
+    font-size: 30px;
+  }
 }

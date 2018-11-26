@@ -8,16 +8,19 @@
 /-------------------------------------*/
 
 /* Base Button */
-.mdev-btn {
+.agcap-btn {
   width: auto;
   padding: .7vw 1vw;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: $spec-bold;
+  font-family: $spec-font;
+  color: $color-agcap-blue;
   cursor: pointer;
   transition: all .4s;
   position: relative;
   vertical-align: middle;
+  text-align: center;
 
   &:before,
   &:after {
@@ -47,5 +50,9 @@
   @media #{$phone-only} {
     padding: 4vw 4.3vw;
     letter-spacing: 1px;
+  }
+
+  i {
+    margin: 0 0 0 5px;
   }
 }

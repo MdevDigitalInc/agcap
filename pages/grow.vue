@@ -1,5 +1,5 @@
 <template lang="pug">
   .grow-page
-    h1
+    h1.u-blue
       |Grow todo
 </template>

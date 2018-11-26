@@ -1,5 +1,5 @@
 <template lang="pug">
   .approach-page
-    h1
+    h1.u-blue
       |Approach todo
 </template>
