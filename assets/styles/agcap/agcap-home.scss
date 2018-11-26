@@ -37,10 +37,6 @@ section.agc-hero {
   height: auto;
   margin-bottom: 50px;
 
-  @media #{$tablet-only} {
-    margin-bottom: 50px;
-  }
-
   @media #{$laptop-only} {
     margin-bottom: 85px;
   }
@@ -91,11 +87,6 @@ section.agc-hero {
   }
 
   @media #{$laptop-up} {
-    padding: 0 0 25px 8%;
-    margin: 85px 0 0 8%;
-  }
-
-  @media #{$desktop-up} {
     padding: 0 0 25px 8%;
     margin: 85px 0 0 8%;
   }
