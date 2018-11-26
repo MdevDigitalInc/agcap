@@ -1,3 +1,5 @@
+// HOME: PAGE WRAPPER + BG ELEMENT
+
 .agc-home-page {
   position: relative;
   width: 100%;
@@ -25,7 +27,7 @@
   }
 }
 
-// HERO SECTION
+//  HOME: HERO SECTION
 
 section.agc-hero {
   position: relative;
@@ -117,7 +119,7 @@ section.agc-hero {
   }
 }
 
-// Approach Section
+// HOME: APPROACH SECTION
 
 
 /* Dev Note: I use section selector once per section
@@ -170,6 +172,68 @@ section.agc-home-approach {
   @media #{$laptop-up} {
     margin: 0;
     width: 60%;
+  }
+
+  img {
+    max-width: 1150px;
+    width: 100%;
+  }
+}
+
+// HOME: ABOUT SECTION
+
+section.agc-home-about {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+.agc-about-text {
+  width: 100%;
+  padding: 0 8% 30px;
+  order: 1;
+
+  @media #{$tablet-only} {
+    padding: 0 8% 50px;
+  }
+
+  @media #{$laptop-up} {
+    width: 40%;
+    padding: 45px 16% 0 25px;
+    order: 2;
+  }
+
+  @media #{$desktop-up} {
+    padding: 50px 16% 0 35px;
+  }
+}
+
+.agc-about-image {
+  margin: 0 auto;
+  width: 84%;
+  order: 2;
+
+  @media #{$laptop-up} {
+    margin: 0;
+    width: 60%;
+    order: 1;
   }
 
   img {
