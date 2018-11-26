@@ -75,4 +75,174 @@
     section.agc-about-bio
       p.agc-bio-blurb.--body-medium
         |Real expertise is built from combined experience. Our team offers a unique mix of industry perspectives and specialties, creating a rare breadth and depth of knowledge. Our General Partner Managers and their specialties include:
+      // Bio Box Starts Here
+      .agc-bio-box
+        h4
+          |Jay Bradshaw
+        .agcap-title-line
+        .agc-bio-inner
+          .agc-bio-image
+          .agc-bio-text
+            p.u-bold
+              |Background
+            ul.u-ghostlist
+              li
+                |Retired in June 2018 as President, Syngenta Canada Inc.
+              li
+                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
+            p.u-bold
+              |Board Experience
+            ul.u-ghostlist
+              li
+                |Chair and Director of CropLife Canada
+              li
+                |CleanFarms Canada
+              li
+                |Cereals Canada
+              li
+                |ROI (Rural Ontario Institute)
+              li
+                |Ontario 4H Foundation
+            p.u-bold
+              |Education
+            ul.u-ghostlist
+              li
+                |University of Guelph
+              li
+                |MBA from the University of Saskatchewan
+            p.u-bold
+              |Awards
+            ul.u-ghostlist
+              li
+                |CAMA AgriMarketer of the Year
+              li
+                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
+            p.u-bold
+              |Personal
+            ul.u-ghostlist
+              li
+                |Jay and his wife Kathy live in Guelph, Ontario. Their two sons, Sam and Ben, are attending university and college.
+      // Bio Box Starts Here
+      .agc-bio-box
+        h4
+          |John DePutter
+        .agcap-title-line
+        .agc-bio-inner
+          .agc-bio-image
+          .agc-bio-text
+            p.u-bold
+              |Background
+            ul.u-ghostlist
+              li
+                |Founded DePutter Publishing Ltd., in 1981
+              li
+                |Started his career working as Secretary Manager for the Middlesex Federation of Agriculture. Developed a loyal following of his farm show, while working as a broadcaster for CFPL Radio in London in the late 1970s and early 80s. At that time he also started his own business as an agricultural writer and commodity analyst.
+              li
+                |John has contributed to a wide variety of publications and has designed and taught commodity marketing courses. He is a frequent speaker at farm meetings and conferences across Canada and has built relationships with farmers and agribusiness people across the country.
+              li
+                |John brings an in-depth knowledge of commodity markets, grain marketing strategies and risk management to the Ag Capital Canada team.
+            p.u-bold
+              |Education
+            ul.u-ghostlist
+              li
+                |University of Western Ontario
+            p.u-bold
+              |Personal
+            ul.u-ghostlist
+              li
+                |Residing in London Ontario, John and his wife Nancy enjoy their time with friends and treasure the time spent with their two daughters and sons-in-law and their grandchild.
+      // Bio Box Starts Here
+      .agc-bio-box
+        h4
+          |Jay Bradshaw
+        .agcap-title-line
+        .agc-bio-inner
+          .agc-bio-image
+          .agc-bio-text
+            p.u-bold
+              |Background
+            ul.u-ghostlist
+              li
+                |Retired in June 2018 as President, Syngenta Canada Inc.
+              li
+                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
+            p.u-bold
+              |Board Experience
+            ul.u-ghostlist
+              li
+                |Chair and Director of CropLife Canada
+              li
+                |CleanFarms Canada
+              li
+                |Cereals Canada
+              li
+                |ROI (Rural Ontario Institute)
+              li
+                |Ontario 4H Foundation
+            p.u-bold
+              |Education
+            ul.u-ghostlist
+              li
+                |University of Guelph
+              li
+                |MBA from the University of Saskatchewan
+            p.u-bold
+              |Awards
+            ul.u-ghostlist
+              li
+                |CAMA AgriMarketer of the Year
+              li
+                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
+            p.u-bold
+              |Personal
+            ul.u-ghostlist
+              li
+                |Jay and his wife Kathy live in Guelph, Ontario. Their t
+      // Bio Box Starts Here
+      .agc-bio-box
+        h4
+          |Jay Bradshaw
+        .agcap-title-line
+        .agc-bio-inner
+          .agc-bio-image
+          .agc-bio-text
+            p.u-bold
+              |Background
+            ul.u-ghostlist
+              li
+                |Retired in June 2018 as President, Syngenta Canada Inc.
+              li
+                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
+            p.u-bold
+              |Board Experience
+            ul.u-ghostlist
+              li
+                |Chair and Director of CropLife Canada
+              li
+                |CleanFarms Canada
+              li
+                |Cereals Canada
+              li
+                |ROI (Rural Ontario Institute)
+              li
+                |Ontario 4H Foundation
+            p.u-bold
+              |Education
+            ul.u-ghostlist
+              li
+                |University of Guelph
+              li
+                |MBA from the University of Saskatchewan
+            p.u-bold
+              |Awards
+            ul.u-ghostlist
+              li
+                |CAMA AgriMarketer of the Year
+              li
+                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
+            p.u-bold
+              |Personal
+            ul.u-ghostlist
+              li
+                |Jay and his wife Kathy live in Guelph, Ontario. Their t
 </template>
