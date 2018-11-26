@@ -20,7 +20,8 @@
   transition: all .4s;
   position: relative;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
+  white-space: nowrap;
 
   &:before,
   &:after {

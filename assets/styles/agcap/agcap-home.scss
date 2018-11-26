@@ -201,7 +201,7 @@ section.agc-home-about {
   }
 
   @media #{$desktop-up} {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
   }
 }
 
@@ -239,5 +239,57 @@ section.agc-home-about {
   img {
     max-width: 1150px;
     width: 100%;
+  }
+}
+
+// HOME: INVEST SECTION
+
+section.agc-home-invest {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 40px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 75;
+  }
+}
+
+.agc-invest-text {
+  width: 100%;
+  padding: 0 8% 30px;
+
+  @media #{$tablet-only} {
+    padding: 0 8% 50px;
+  }
+
+  @media #{$laptop-up} {
+    width: 40%;
+    padding: 0 0 0 16%;
+  }
+
+  @media #{$desktop-up} {
+    padding: 0 0 0 16%;
+  }
+}
+
+.agc-invest-image {
+  margin: 0 auto;
+  width: 84%;
+
+  @media #{$laptop-up} {
+    width: 60%;
   }
 }
