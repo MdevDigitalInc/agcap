@@ -1,0 +1,117 @@
+// ABOUT: PAGE WRAPPER
+
+.agc-about-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+//  ABOUT: INTRO SECTION
+
+section.agc-about-intro {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+.agc-intro-text {
+  width: 100%;
+
+  @media #{$laptop-up} {
+    width: 60%;
+    padding: 30px 85px 0 16%;
+  }
+}
+
+.agc-intro-content {
+  width: 100%;
+
+  @media #{$laptop-up} {
+    width: 40%;
+  }
+}
+
+// Toggle Logic
+
+.agc-intro-vision-alpha {
+  display: none;
+
+  @media #{$laptop-up} {
+    display: block;
+  }
+}
+
+.agc-intro-vision-omega {
+  display: block;
+
+  @media #{$laptop-up} {
+    display: none;
+  }
+}
+
+// ABOUT: BANNER SECTION
+
+section.agc-about-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+// ABOUT: BIO SECTION
+
+section.agc-about-bio {
+  background: $color-agcap-bluealpha;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 35px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 40px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 75px;
+  }
+}
+
+.agc-bio-blurb {
+  margin-bottom: 30px;
+}
