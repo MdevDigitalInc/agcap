@@ -1,0 +1,200 @@
+// ABOUT: PAGE WRAPPER
+
+.agc-about-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+//  ABOUT: INTRO SECTION
+
+section.agc-about-intro {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+.agc-intro-text {
+  width: 100%;
+  padding: 50px 8% 25px;
+
+  @media #{$laptop-up} {
+    width: 60%;
+    padding: 30px 85px 0 16%;
+  }
+}
+
+.agc-intro-content {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  @media #{$laptop-up} {
+    width: 40%;
+  }
+
+  .agc-intro-purpose {
+    background: $color-agcap-navy;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 8%;
+    margin: 0;
+
+    @media #{$tablet-only} {
+      top: 0;
+      width: 84%;
+      padding: 25px;
+      margin: 0 8%;
+    }
+
+    @media #{$laptop-up} {
+      top: 140px;
+      width: 410px;
+      padding: 25px;
+    }
+  }
+
+  .agc-img-box {
+    position: relative;
+    background-color: $color-agcap-red;
+    width: 100%;
+    height: 660px;
+    margin: 110px 0 0;
+
+    @media #{$laptop-up} {
+      height: 800px;
+      margin: 0 0 0 10%;
+    }
+  }
+}
+
+// Toggle Logic
+
+.agc-intro-vision-alpha {
+  display: none;
+
+  @media #{$laptop-up} {
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+.agc-intro-vision-omega {
+  display: block;
+  margin: 35px 8% 0;
+
+  @media #{$laptop-up} {
+    display: none;
+  }
+}
+
+// ABOUT: BANNER SECTION
+
+section.agc-about-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.agc-banner-image {
+  z-index: 1;
+  background-color: $color-agcap-red;
+  width: 84%;
+  height: 210px;
+
+  @media #{$tablet-only} {
+    height: 450px;
+  }
+
+  @media #{$laptop-only} {
+    height: 628px;
+  }
+
+  @media #{$desktop-up} {
+    height: 678px;
+  }
+}
+
+.agc-banner-bg {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background-color: $color-agcap-bluealpha;
+}
+
+// ABOUT: BIO SECTION
+
+section.agc-about-bio {
+  background: $color-agcap-bluealpha;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 85px 8% 35px;
+
+  @media #{$tablet-only} {
+    padding: 85px 8% 35px;
+  }
+
+  @media #{$laptop-only} {
+    padding: 85px 16% 35px;
+  }
+
+  @media #{$desktop-up} {
+    padding: 85px 16% 35px;
+  }
+}
+
+.agc-bio-blurb {
+  margin-bottom: 30px;
+}
+
+.agc-bio-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.agc-bio-inner {
+  display: flex;
+  justify-content: flex-start;
+
+  .agc-bio-image {
+    background: $white;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
+    width: 320px;
+    height: 450px;
+  }
+
+  .agc-bio-text {
+    padding: 0 25px;
+  }
+}

@@ -2,8 +2,19 @@
 
   Master Import for AGCAP module, component, etc. styles 
 
-  Add more here rather than importing into the global-main
+  Add more here rather than importing into the global-main!
 
 */
 
+// Global (use with care)
+
 @import './agcap-global.scss';
+
+// Pages (wrappers and page specific styles)
+
+@import './agcap-home.scss';
+@import './agcap-about.scss';
+
+// Modules (repeatable components site-wide)
+
+@import './agcap-featured.scss';

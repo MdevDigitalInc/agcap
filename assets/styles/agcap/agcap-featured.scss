@@ -1,0 +1,146 @@
+// FEATURED MODULE *'~o-,.,-o~'*
+
+section.agc-featured {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+/* Featured Option #1: Blurb */
+
+/*
+
+  Notes:
+
+  Default is blurb on the left, this can be overridden with .--right
+
+  This may not work with all "Featured" options;
+  ensure the other side also has a re-positioning flag ior you may get wonky behaviour!
+
+  Ex.
+
+  .agc-featured-blurb.--right
+    ...
+  .agc-featured-image.--left
+    ...
+
+*/
+
+.agc-featured-blurb {
+  width: 100%;
+  padding: 0 8% 30px;
+  order: 1;
+
+  @media #{$tablet-only} {
+    padding: 0 8% 50px;
+  }
+
+  @media #{$laptop-up} {
+    width: 40%;
+    padding: 45px 25px 0 16%;
+  }
+
+  @media #{$desktop-up} {
+    padding: 50px 35px 0 16%;
+  }
+
+  &.--right {
+    order: 1;
+
+    @media #{$laptop-up} {
+      width: 40%;
+      padding: 45px 16% 0 25px;
+      order: 2;
+    }
+
+    @media #{$desktop-up} {
+      padding: 50px 16% 0 35px;
+    }
+  }
+}
+
+/* Featured Option #2: Image */
+
+/*
+
+  Notes:
+
+  Default is image on the right, this can be overridden with .--left
+
+  This may not work with all "Featured" options;
+  ensure the other side also has a re-positioning flag ior you may get wonky behaviour!
+
+  Ex.
+
+  .agc-featured-blurb.--right
+    ...
+  .agc-featured-image.--left
+    ...
+
+*/
+
+.agc-featured-image {
+  background-color: $color-agcap-red;
+  margin: 0 auto;
+  width: 84%;
+  height: vw-phone(135);
+  order: 2;
+
+  @media #{$tablet-only} {
+    height: vw-tablet(275);
+  }
+
+  @media #{$laptop-up} {
+    margin: 0;
+    width: 60%;
+    height: vw-laptop(420);
+  }
+
+  @media #{$desktop-up} {
+    height: vw-desktop(420);
+  }
+
+  &.--left {
+    order: 2;
+
+    @media #{$laptop-up} {
+      order: 1;
+    }
+  }
+}
+
+/* Featured Option #3: Empty */
+
+/*
+
+  This is an empty 60% right side.
+
+  On small screens it collapses to a zero height div.
+
+*/
+
+.agc-featured-empty {
+  margin: 0 auto;
+  width: 84%;
+
+  @media #{$laptop-up} {
+    width: 60%;
+  }
+}
