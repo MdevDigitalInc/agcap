@@ -1,5 +1,5 @@
 <template lang="pug">
-  .about-page
-    h1.u-blue
-      |About todo
+  .agc-about-page
+    h1.u-navy
+      |Introduction
 </template>
