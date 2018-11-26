@@ -27,7 +27,7 @@
 
 // HERO SECTION
 
-.agc-hero {
+section.agc-hero {
   position: relative;
   width: 100%;
   height: auto;
@@ -83,16 +83,16 @@
 
   @media #{$tablet-only} {
     padding: 0 0 10px;
-    margin: 60px 0 0 7%;
+    margin: 60px 0 0 8%;
   }
 
   @media #{$laptop-up} {
-    padding: 0 0 25px vw-laptop(100);
+    padding: 0 0 25px 8%;
     margin: 85px 0 0 8%;
   }
 
   @media #{$desktop-up} {
-    padding: 0 0 25px vw-desktop(150);
+    padding: 0 0 25px 8%;
     margin: 85px 0 0 8%;
   }
 }
@@ -105,27 +105,75 @@
   margin: 0;
 
   @media #{$tablet-only} {
-    width: 86%;
+    width: 84%;
     left: 0;
-    margin: 0 7%;
+    margin: 0 8%;
   }
 
-  @media #{$laptop-only} {
+  @media #{$laptop-up} {
     width: 75%;
-    left: vw-laptop(100);
-    margin: 0 0 0 8%;
-  }
-
-  @media #{$desktop-up} {
-    width: 75%;
-    left: vw-desktop(150);
+    left: 8%;
     margin: 0 0 0 8%;
   }
 }
 
-// NEXT SECTION todo AW
+// Approach Section
 
-.agc-morecontent {
-  padding: 10vh 10vw;
-  background: #000;
+
+/* Dev Note: I use section selector once per section
+ to make it easy to identify the root styles like so: */
+
+section.agc-home-approach {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  @media #{$tablet-only} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$laptop-only} {
+    margin-bottom: 85px;
+  }
+
+  @media #{$desktop-up} {
+    margin-bottom: 150px;
+  }
+}
+
+.agc-approach-text {
+  width: 100%;
+  padding: 0 8% 30px;
+
+  @media #{$tablet-only} {
+    padding: 0 8% 50px;
+  }
+
+  @media #{$laptop-up} {
+    width: 40%;
+    padding: 45px 25px 0 16%;
+  }
+
+  @media #{$desktop-up} {
+    padding: 50px 35px 0 16%;
+  }
+}
+
+.agc-approach-image {
+  margin: 0 auto;
+  width: 84%;
+
+  @media #{$laptop-up} {
+    margin: 0;
+    width: 60%;
+  }
+
+  img {
+    max-width: 1150px;
+    width: 100%;
+  }
 }
