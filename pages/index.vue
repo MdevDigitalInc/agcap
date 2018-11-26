@@ -9,11 +9,11 @@
           |Ag Capital Canada
         p.--body-large.u-white
           |Helping great businesses grow.
-      img.agc-hero-image(src="http://placekitten.com/g/1440/640" alt="todo")
+      .agc-hero-image
       .agc-hero-panel
     // Our Approach Section
-    section.agc-home-approach
-      .agc-approach-text
+    section.agc-featured
+      .agc-featured-blurb
         h2
           |Fostering Growth with Private Equity
         .agcap-title-line
@@ -22,13 +22,10 @@
         a.agcap-btn(href="/approach" tilte="See our approach")
           |our approach
           i.fas.fa-caret-right
-      .agc-approach-image
-        img(src="http://placekitten.com/g/1122/450" alt="todo")
+      .agc-featured-image
     // About Us Section
-    section.agc-home-about
-      .agc-about-image
-        img(src="http://placekitten.com/g/1122/450" alt="todo")
-      .agc-about-text
+    section.agc-featured
+      .agc-featured-blurb.--right
         h2
           |Who We Are
         .agcap-title-line
@@ -37,9 +34,10 @@
         a.agcap-btn(href="/about" tilte="Learn about who we are")
           |about us
           i.fas.fa-caret-right
+      .agc-featured-image.--left
     // Investment Section
     section.agc-home-invest
-      .agc-invest-text
+      .agc-featured-blurb
         h2
           |Our Investments
         .agcap-title-line
@@ -48,8 +46,7 @@
         a.agcap-btn(href="/typography" tilte="Request investor info package")
           |Request investor info package
           i.fas.fa-caret-right
-      .agc-invest-image
-        //- There isn't one!
+      .agc-featured-empty
     // Home Page Background Element
     .agc-home-bg
 </template>
