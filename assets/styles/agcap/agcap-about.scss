@@ -35,6 +35,7 @@ section.agc-about-intro {
 
 .agc-intro-text {
   width: 100%;
+  padding: 50px 8% 25px;
 
   @media #{$laptop-up} {
     width: 60%;
@@ -43,10 +44,51 @@ section.agc-about-intro {
 }
 
 .agc-intro-content {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
 
   @media #{$laptop-up} {
     width: 40%;
+  }
+
+  .agc-intro-purpose {
+    background: $color-agcap-navy;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 8%;
+    margin: 0;
+
+    @media #{$tablet-only} {
+      top: 0;
+      width: 84%;
+      padding: 25px;
+      margin: 0 8%;
+    }
+
+    @media #{$laptop-up} {
+      top: 140px;
+      width: 410px;
+      padding: 25px;
+    }
+  }
+
+  .agc-img-box {
+    position: relative;
+    background-color: $color-agcap-red;
+    width: 100%;
+    height: 660px;
+    margin: 110px 0 0;
+
+    @media #{$laptop-up} {
+      height: 800px;
+      margin: 0 0 0 10%;
+    }
   }
 }
 
@@ -57,11 +99,13 @@ section.agc-about-intro {
 
   @media #{$laptop-up} {
     display: block;
+    padding-top: 10px;
   }
 }
 
 .agc-intro-vision-omega {
   display: block;
+  margin: 35px 8% 0;
 
   @media #{$laptop-up} {
     display: none;
