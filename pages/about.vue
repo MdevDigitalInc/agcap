@@ -69,8 +69,10 @@
           i.fas.fa-caret-right
     // About Banner Image
     section.agc-about-banner
+      .agc-banner-image
+      .agc-banner-bg
     // About Bio Section
     section.agc-about-bio
-      p.agc-bio-blurb.--body-medium.
+      p.agc-bio-blurb.--body-medium
         |Real expertise is built from combined experience. Our team offers a unique mix of industry perspectives and specialties, creating a rare breadth and depth of knowledge. Our General Partner Managers and their specialties include:
 </template>
