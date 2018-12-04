@@ -1,6 +1,26 @@
 /*
   AGCAP Footer Styles
 
+  The footer has 3 major moving pieces:
+
+  1. .agc-footer-main
+
+    This contains the majority of the footer,
+    it is 3 flex blocks, space-between (laptop+)
+    and column (tablet). They live inside the div
+    .agc-footer-main-left.
+
+  2. .agc-footer-main-right
+
+    This ONLY contains the "Return To Top"
+    button. It is absolute and positioned as
+    accurately as possible in this fashion.
+
+  3. .agc-footer-bumper
+
+    This is the copyright line, lives on its own
+    underneath the agc-footer-main div.
+
   AW
 
 */
