@@ -9,16 +9,60 @@
   background-color: $color-agcap-navy;
 }
 
-// Main Styles
+/*
 
+  Main Styles
 
-// Bumper Styles
+*/
 
-.agc-footer-bumper {
-  padding: 2px 5%;
+.agc-footer-main {
+  width: 100%;
+  position: relative;
+
+  @media #{$phone-only} {
+    display: none;
+  }
+
+  @media #{$tablet-only} {
+    padding: 0;
+  }
 
   @media #{$laptop-up} {
-    padding: 2px 8%;
+    padding: 0;
+  }
+}
+
+// Main Left Styles
+
+.agc-footer-main-left {
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$laptop-up} {
+    padding: 50px 16% 25px 8%;
+  }
+}
+
+// Main Right Styles
+
+.agc-footer-main-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*
+
+  Bumper Styles
+
+*/
+
+.agc-footer-bumper {
+  width: 100%;
+  padding: 5px 5%;
+
+  @media #{$laptop-up} {
+    padding: 4px 8%;
   }
 
   span {
