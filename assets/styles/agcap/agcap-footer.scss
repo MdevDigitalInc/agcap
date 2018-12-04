@@ -121,13 +121,20 @@
 
 .agc-footer-main-right {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 4%;
+  top: 50%;
 
-  a {
+  @media #{$tablet-only} {
+    top: 30%;
+  }
+
+  .agc-footer-wormhole {
+    transform: rotate(-90deg);
+  }
+
+  .agc-top {
     text-transform: uppercase;
     font-weight: $spec-bold;
-
   }
 }
 
