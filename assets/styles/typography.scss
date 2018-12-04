@@ -178,10 +178,16 @@ h6,
 a {
   font-family: $spec-font;
   text-decoration: inherit;
+  transition: all .4s;
 
   &:hover {
     text-decoration: none;
-    
+  }
+
+  &.h5 {
+    &:hover {
+      color: darken($color-agcap-blue, 10%);
+    }
   }
 }
 

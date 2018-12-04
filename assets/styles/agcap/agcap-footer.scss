@@ -136,6 +136,10 @@
   .agc-top {
     text-transform: uppercase;
     font-weight: $spec-bold;
+    
+    &:hover {
+      color: darken($white, 10%);
+    }
   }
 }
 

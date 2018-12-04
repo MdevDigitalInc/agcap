@@ -13,15 +13,16 @@
           .agcap-title-line
           a.agcap-btn.--solid(href="/contact" tilte="Learn about who we are")
             |request an investor fact sheet
-        .agc-footer-links
-          nuxt-link.agc-footer-link.h5(to="/")
-            |Home
-          nuxt-link.agc-footer-link.h5(to="/approach")
-            |Approach
-          nuxt-link.agc-footer-link.h5(to="/about")
-            |About Us
-          nuxt-link.agc-footer-link.h5(to="/contact")
-            |Contact
+        .agc-footer-linkbox
+          .agc-footer-links
+            nuxt-link.agc-footer-link.h5(to="/")
+              |Home
+            nuxt-link.agc-footer-link.h5(to="/approach")
+              |Approach
+            nuxt-link.agc-footer-link.h5(to="/about")
+              |About Us
+            nuxt-link.agc-footer-link.h5(to="/contact")
+              |Contact
       .agc-footer-main-right
         .agc-footer-wormhole
           a.agc-top.u-white(v-on:click="toTop")
