@@ -11,13 +11,15 @@
           h4.u-white
             |Grow With Us
           .agcap-title-line
+          a.agcap-btn.--solid(href="/contact" tilte="Learn about who we are")
+            |request an investor fact sheet
         .agc-footer-links
           nuxt-link.agc-footer-link.h5(to="/")
             |Home
-          nuxt-link.agc-footer-link.h5(to="/about")
-            |About
           nuxt-link.agc-footer-link.h5(to="/approach")
             |Approach
+          nuxt-link.agc-footer-link.h5(to="/about")
+            |About Us
           nuxt-link.agc-footer-link.h5(to="/contact")
             |Contact
       .agc-footer-main-right
@@ -25,6 +27,6 @@
           a.u-white
             |return to top
     .agc-footer-bumper
-      span.u-white
+      span
         |Copyright &copy; 2018 Ag Capital Canada
 </template>
