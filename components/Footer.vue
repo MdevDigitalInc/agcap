@@ -24,9 +24,20 @@
             |Contact
       .agc-footer-main-right
         .agc-footer-wormhole
-          a.u-white
+          a.u-white(v-on:click="toTop")
             |return to top
     .agc-footer-bumper
       span
         |Copyright &copy; 2018 Ag Capital Canada
 </template>
+
+<script>
+export default {
+  methods: {
+    toTop: function () {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  }
+}
+</script>
