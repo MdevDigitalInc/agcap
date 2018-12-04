@@ -120,7 +120,7 @@
   border: 1px solid $color-agcap-navyalpha;
   width: 100%;
   height: 215px;
-  padding: 20px 15px 1px 10px;
+  padding: 20px 15px 15px 15px;
 
   @media #{$phone-only} {
     &:nth-child( n+2 ) {
@@ -130,7 +130,7 @@
   
   @media #{$tablet-only} {
     height: 265px;
-    padding: 40px 30px 1px 30px;
+    padding: 40px 30px 15px 30px;
 
     &:nth-child( n+2 ) {
       border-top: none;
@@ -140,7 +140,7 @@
   @media #{$laptop-up} {
     width: 33.3%;
     height: auto;
-    padding: 50px 30px 1px;
+    padding: 50px 30px 25px;
 
     &:nth-child( n+2 ) {
       border-left: none;
@@ -149,5 +149,9 @@
 
   h3 {
     margin-bottom: 15px;
+
+    @media #{$laptop-only} {
+      font-size: 30px;
+    }
   }
 }
