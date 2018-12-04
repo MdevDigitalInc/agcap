@@ -1,0 +1,27 @@
+/*
+  AGCAP Footer Styles
+
+  AW
+
+*/
+
+.agc-footer {
+  background-color: $color-agcap-navy;
+}
+
+// Main Styles
+
+
+// Bumper Styles
+
+.agc-footer-bumper {
+  padding: 2px 5%;
+
+  @media #{$laptop-up} {
+    padding: 2px 8%;
+  }
+
+  span {
+    color: $color-agcap-blue;
+  }
+}
