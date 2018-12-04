@@ -9,8 +9,6 @@
           |About
         nuxt-link.agc-main-nav-link.h5(to="/approach")
           |Approach
-        nuxt-link.agc-main-nav-link.h5(to="/grow")
-          |Grow
         nuxt-link.agc-main-nav-link.h5(to="/contact")
           |Contact
     .agc-main-nav-graphic
