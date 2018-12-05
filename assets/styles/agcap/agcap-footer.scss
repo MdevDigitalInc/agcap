@@ -1,0 +1,188 @@
+/*
+  AGCAP Footer Styles
+
+  The footer has 3 major moving pieces:
+
+  1. .agc-footer-main
+
+    This contains the majority of the footer,
+    it is 3 flex blocks, space-between (laptop+)
+    and column (tablet). They live inside the div
+    .agc-footer-main-left.
+
+  2. .agc-footer-main-right
+
+    This ONLY contains the "Return To Top"
+    button. It is absolute and positioned as
+    accurately as possible in this fashion.
+
+  3. .agc-footer-bumper
+
+    This is the copyright line, lives on its own
+    underneath the agc-footer-main div.
+
+
+  NOTE: Some text styles here are one-offs, and
+  stray from the stylesheet / typography page.
+  #YOLO
+
+  AW
+
+*/
+
+.agc-footer {
+  background-color: $color-agcap-navy;
+  overflow: hidden;
+}
+
+/*
+
+  Main Styles
+
+*/
+
+.agc-footer-main {
+  width: 100%;
+  position: relative;
+
+  @media #{$phone-only} {
+    display: none;
+  }
+
+  @media #{$tablet-only} {
+    padding: 40px 5% 50px;
+  }
+
+  @media #{$laptop-up} {
+    padding: 50px 16% 100px 8%;
+  }
+}
+
+// Main Left Styles
+
+.agc-footer-main-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media #{$laptop-up} {
+    flex-direction: row;
+  }
+}
+
+// Info Section
+
+.agc-footer-info {
+  .agc-footer-logo {
+    max-width: 320px;
+    width: auto;
+    margin: 0 25px 20px 0;
+
+    // Until img is in:
+    height: 40px;
+    background-color: red;
+  }
+
+  .agc-footer-blurb {
+    padding-left: 85px;
+
+    @media #{$tablet-only} {
+      padding-bottom: 50px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 140%;
+    }
+  }
+}
+
+// Contact Sectionm
+
+.agc-footer-contact {
+  width: auto;
+  margin: 0 25px 0 0;
+
+  @media #{$tablet-only} {
+    padding: 0 0 65px 80px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .agcap-title-line {
+    margin-bottom: 15px;
+    
+    @media #{$tablet-only} {
+      width: 315px;
+    }
+  }
+}
+
+// Links Section
+
+.agc-footer-links {
+  display: flex;
+  flex-direction: row;
+
+  @media #{$tablet-only} {
+    padding-left: 80px;
+  }
+
+  @media #{$laptop-only} {
+    flex-direction: column;
+  }
+
+  a {
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// Main Right Styles
+
+.agc-footer-main-right {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+
+  @media #{$tablet-only} {
+    top: 30%;
+  }
+
+  .agc-footer-wormhole {
+    transform: rotate(-90deg);
+  }
+
+  .agc-top {
+    text-transform: uppercase;
+    font-weight: $spec-bold;
+    
+    &:hover {
+      color: darken($white, 10%);
+    }
+  }
+}
+
+/*
+
+  Bumper Styles
+
+*/
+
+.agc-footer-bumper {
+  width: 100%;
+  padding: 15px 6%;
+
+  @media #{$laptop-up} {
+    padding: 20px 8%;
+  }
+
+  span {
+    color: $color-agcap-blue;
+  }
+}
