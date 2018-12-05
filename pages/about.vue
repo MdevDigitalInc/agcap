@@ -95,7 +95,7 @@
       // Bio Box Starts Here
       .agc-bio-box
         h4
-          |Jay Bradshaw
+          |Michael Perovich
         .agcap-title-line
         .agc-bio-inner
           .agc-bio-image.--mp
@@ -103,7 +103,7 @@
       // Bio Box Starts Here
       .agc-bio-box
         h4
-          |Jay Bradshaw
+          |John Lansink
         .agcap-title-line
         .agc-bio-inner
           .agc-bio-image.--jl
