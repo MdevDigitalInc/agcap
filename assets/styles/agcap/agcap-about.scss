@@ -193,11 +193,31 @@ section.agc-about-bio {
   justify-content: flex-start;
 
   .agc-bio-image {
-    background: $white;
     border-radius: 4px;
     box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
     width: 320px;
     height: 450px;
+    background-color: $white;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // Images
+
+    &.--jb {
+      background-image: url('/bio-jay-bradshaw.png');
+    }
+
+    &.--jd {
+      background-image: url('/bio-jay-bradshaw.png');
+    }
+
+    &.--mp {
+      background-image: url('/bio-jay-bradshaw.png');
+    }
+
+    &.--jl {
+      background-image: url('/bio-jay-bradshaw.png');
+    }
   }
 
   .agc-bio-text {
