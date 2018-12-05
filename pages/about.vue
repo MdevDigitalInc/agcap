@@ -29,7 +29,7 @@
             |The approach of Ag Capital Canada is largely about choosing the right people to work with: the mix of people acting as principals, and those in the investment group, must be people with integrity and experience.
           p
             |In terms of the owner-operators who apply for our capital and assistance, we are looking for smart, honest, hard-working business owners with bright prospects.
-          a.agcap-btn(href="/typography" tilte="Request investor info package")
+          a.agcap-btn(href="/typography" title="Request investor info package")
             |Request investor info package
             i.fas.fa-caret-right
       // Right Side
@@ -64,7 +64,7 @@
           |The approach of Ag Capital Canada is largely about choosing the right people to work with: the mix of people acting as principals, and those in the investment group, must be people with integrity and experience.
         p
           |In terms of the owner-operators who apply for our capital and assistance, we are looking for smart, honest, hard-working business owners with bright prospects.
-        a.agcap-btn(href="/typography" tilte="Request investor info package")
+        a.agcap-btn(href="/typography" title="Request investor info package")
           |Request investor info package
           i.fas.fa-caret-right
     // About Banner Image

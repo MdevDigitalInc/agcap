@@ -53,7 +53,7 @@
               |True Expertise
             p
               |Real expertise is built from combined experience. Our team offers a unique mix of industry perspectives and specialties, creating a rare breadth and depth of knowledge.
-        a.agcap-btn(href="/about" tilte="Learn about who we are")
+        a.agcap-btn(href="/about" title="Learn about who we are")
           |about us
           i.fas.fa-caret-right
 </template>
