@@ -83,15 +83,34 @@
         .agc-bio-inner
           .agc-bio-image.--jb
           .agc-bio-text
-            
+            p
+              |Jay Bradshaw retired in June 2018 as President of Syngenta Canada Inc. During his 36 years in the Canadian agriculture industry, Jay forged many long-lasting relationships with agricultural networks across Canada which he maintains today.
+            p
+              |Jay’s Board experience includes: Chair and Director of CropLife Canada; CleanFarms Canada; Cereals Canada; ROI (Rural Ontario Institute); and the Ontario 4H Foundation.
+            p
+              |He has been named the CAMA AgriMarketer of the Year (2009), and received the Queens Diamond Jubilee medal for dedication to Canadian agriculture.
+            p
+              |After growing up on a farm in Quebec, Jay received his BSc.Agr from the University of Guelph. He also has an MBA from the University of Saskatchewan.
+            p
+              |Together with his wife Kathy, Jay lives in Guelph, Ontario. Their two sons, Sam and Ben, are attending university and college. Jay enjoys their hobby farm and his vintage Willy jeeps.
       // Bio Box Starts Here
       .agc-bio-box
         h4
           |John DePutter
         .agcap-title-line
-        .agc-bio-inner
+        .agc-bio-inner.--flip
           .agc-bio-image.--jd
           .agc-bio-text
+            p
+              |John DePutter founded DePutter Publishing Ltd. in 1981. As President of DePutter Publishing for nearly four decades, John possesses a thorough knowledge and insight of commodity markets, grain marketing strategies, and risk management.
+            p
+              |John started his career working as Secretary Manager for the Middlesex Federation of Agriculture. After developing a loyal following of his farm show as a broadcaster for CFPL Radio in London in the late 1970s and early 80s, John started his own business as an agricultural writer and commodity analyst.
+            p
+              |John has contributed to a wide variety of publications, and has designed and taught commodity marketing courses. He is a frequent speaker at farm meetings and conferences across Canada and has built relationships with farmers and agribusiness people across the country.
+            p
+              |He received his BA from the University of Western Ontario.
+            p
+              |Residing in London, Ontario, John and his wife Nancy enjoy long-distance running, and spending time with their two daughters, sons-in-law and grandchild.
       // Bio Box Starts Here
       .agc-bio-box
         h4
@@ -100,12 +119,34 @@
         .agc-bio-inner
           .agc-bio-image.--mp
           .agc-bio-text
+            p
+              |Mike Perovich was raised on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
+            p
+              |Mike started his career as a salesman for Future Farm Supplies in the Aylmer/Tillsonburg area after graduating from Ridgetown College majoring in Ag production and management.
+            p
+              |In 1980, Mike purchased Future Farm Supplies. In 1995 he sold the retail portion of the business and rebranded it to Future Transfer Co. Inc. In time, Future Transfer grew into the largest ag chem & seed logistics/formulation company in eastern Canada. In 2011, Mike expanded the company with the Formation of BlueStar Distribution with John Lansink, ultimately selling the business to Univar Canada in 2015.
+            p
+              |Following the sale of Future Transfer, Mike formed GP Capital, which focuses on leasing equipment, and investing in property and small companies. He is also managing partner of several smaller companies, including family-owned Tillsonbrands Inc. and MyMotors.ca.
+            p
+              |Mike and his wife Trish live in Tillsonburg, Ontario where they enjoy working with family, spending time with their two grandchildren, and collecting classic cars & trucks.
       // Bio Box Starts Here
       .agc-bio-box
         h4
           |John Lansink
         .agcap-title-line
-        .agc-bio-inner
+        .agc-bio-inner.--flip
           .agc-bio-image.--jl
           .agc-bio-text
+            p
+              |John Lansink grew up on a small farm outside of London, Ontario. The family hog farming business grew very large until its closure in 2004.
+            p
+              |A numbers man, John’s expertise includes finance, business administration, and agribusiness consulting. His career experience includes seven years at General Dynamics in London, Ontario in various finance, business development, and business strategy roles.
+            p
+              |Following his time at General Dynamics, John formed BlueStar Distribution with Mike Perovich in 2011 and grew the company in both eastern and western Canada — ultimately selling it to Univar Corporation in 2015.
+            p
+              |John is currently involved in select startups, and provides consulting services for local farmers who want to grow their businesses.
+            p
+              |John possesses a BA from the University of Guelph, an MBA from Queens University, and has his Certified Management Accountant Degree.
+            p
+              |John and his wife Karin live in Eden, Ontario and stay busy with their growing family of 5 children.
 </template>
