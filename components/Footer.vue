@@ -3,7 +3,7 @@
     .agc-footer-main
       .agc-footer-main-left
         .agc-footer-info
-          .agc-footer-logo
+          img.agc-footer-logo(src="/AGCAP_RGB_Secondary_White.svg" alt="AGCAP Logo")
           .agc-footer-blurb
             p.u-white
               |50 Clearview Drive<br>Tillsonburg, ON<br>N4G 4G8<br><br>519-842-7609<br>info@agcapitalcanada.com
@@ -26,7 +26,8 @@
       .agc-footer-main-right
         .agc-footer-wormhole
           a.agc-top.u-white(v-on:click="toTop")
-            |return to top  =>
+            |return to top&nbsp;&nbsp;
+            i.fas.fa-arrow-alt-circle-right
     .agc-footer-bumper
       span
         |Copyright &copy; 2018 Ag Capital Canada
