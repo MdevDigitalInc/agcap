@@ -98,6 +98,8 @@ section.agc-featured {
 
 .agc-featured-image {
   background-color: $color-agcap-red;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0 auto;
   width: 84%;
   height: vw-phone(135);
@@ -123,6 +125,16 @@ section.agc-featured {
     @media #{$laptop-up} {
       order: 1;
     }
+  }
+
+  // Images
+
+  &.--greenhouse {
+    background-image: url('/home-greenhouse-sun.png');
+  }
+
+  &.--cows {
+    background-image: url('/home-greenhouse-sun.png');
   }
 }
 

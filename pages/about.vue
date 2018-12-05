@@ -29,7 +29,7 @@
             |The approach of Ag Capital Canada is largely about choosing the right people to work with: the mix of people acting as principals, and those in the investment group, must be people with integrity and experience.
           p
             |In terms of the owner-operators who apply for our capital and assistance, we are looking for smart, honest, hard-working business owners with bright prospects.
-          a.agcap-btn(href="/typography" tilte="Request investor info package")
+          a.agcap-btn(href="/contact" title="Request investor info package")
             |Request investor info package
             i.fas.fa-caret-right
       // Right Side
@@ -64,7 +64,7 @@
           |The approach of Ag Capital Canada is largely about choosing the right people to work with: the mix of people acting as principals, and those in the investment group, must be people with integrity and experience.
         p
           |In terms of the owner-operators who apply for our capital and assistance, we are looking for smart, honest, hard-working business owners with bright prospects.
-        a.agcap-btn(href="/typography" tilte="Request investor info package")
+        a.agcap-btn(href="/contact" title="Request investor info package")
           |Request investor info package
           i.fas.fa-caret-right
     // About Banner Image
@@ -81,168 +81,72 @@
           |Jay Bradshaw
         .agcap-title-line
         .agc-bio-inner
-          .agc-bio-image
+          .agc-bio-image.--jb
           .agc-bio-text
-            p.u-bold
-              |Background
-            ul.u-ghostlist
-              li
-                |Retired in June 2018 as President, Syngenta Canada Inc.
-              li
-                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
-            p.u-bold
-              |Board Experience
-            ul.u-ghostlist
-              li
-                |Chair and Director of CropLife Canada
-              li
-                |CleanFarms Canada
-              li
-                |Cereals Canada
-              li
-                |ROI (Rural Ontario Institute)
-              li
-                |Ontario 4H Foundation
-            p.u-bold
-              |Education
-            ul.u-ghostlist
-              li
-                |University of Guelph
-              li
-                |MBA from the University of Saskatchewan
-            p.u-bold
-              |Awards
-            ul.u-ghostlist
-              li
-                |CAMA AgriMarketer of the Year
-              li
-                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
-            p.u-bold
-              |Personal
-            ul.u-ghostlist
-              li
-                |Jay and his wife Kathy live in Guelph, Ontario. Their two sons, Sam and Ben, are attending university and college.
+            p
+              |Jay Bradshaw retired in June 2018 as President of Syngenta Canada Inc. During his 36 years in the Canadian agriculture industry, Jay forged many long-lasting relationships with agricultural networks across Canada which he maintains today.
+            p
+              |Jay’s Board experience includes: Chair and Director of CropLife Canada; CleanFarms Canada; Cereals Canada; ROI (Rural Ontario Institute); and the Ontario 4H Foundation.
+            p
+              |He has been named the CAMA AgriMarketer of the Year (2009), and received the Queens Diamond Jubilee medal for dedication to Canadian agriculture.
+            p
+              |After growing up on a farm in Quebec, Jay received his BSc.Agr from the University of Guelph. He also has an MBA from the University of Saskatchewan.
+            p
+              |Together with his wife Kathy, Jay lives in Guelph, Ontario. Their two sons, Sam and Ben, are attending university and college. Jay enjoys their hobby farm and his vintage Willy jeeps.
       // Bio Box Starts Here
       .agc-bio-box
         h4
           |John DePutter
         .agcap-title-line
-        .agc-bio-inner
-          .agc-bio-image
+        .agc-bio-inner.--flip
+          .agc-bio-image.--jd
           .agc-bio-text
-            p.u-bold
-              |Background
-            ul.u-ghostlist
-              li
-                |Founded DePutter Publishing Ltd., in 1981
-              li
-                |Started his career working as Secretary Manager for the Middlesex Federation of Agriculture. Developed a loyal following of his farm show, while working as a broadcaster for CFPL Radio in London in the late 1970s and early 80s. At that time he also started his own business as an agricultural writer and commodity analyst.
-              li
-                |John has contributed to a wide variety of publications and has designed and taught commodity marketing courses. He is a frequent speaker at farm meetings and conferences across Canada and has built relationships with farmers and agribusiness people across the country.
-              li
-                |John brings an in-depth knowledge of commodity markets, grain marketing strategies and risk management to the Ag Capital Canada team.
-            p.u-bold
-              |Education
-            ul.u-ghostlist
-              li
-                |University of Western Ontario
-            p.u-bold
-              |Personal
-            ul.u-ghostlist
-              li
-                |Residing in London Ontario, John and his wife Nancy enjoy their time with friends and treasure the time spent with their two daughters and sons-in-law and their grandchild.
+            p
+              |John DePutter founded DePutter Publishing Ltd. in 1981. As President of DePutter Publishing for nearly four decades, John possesses a thorough knowledge and insight of commodity markets, grain marketing strategies, and risk management.
+            p
+              |John started his career working as Secretary Manager for the Middlesex Federation of Agriculture. After developing a loyal following of his farm show as a broadcaster for CFPL Radio in London in the late 1970s and early 80s, John started his own business as an agricultural writer and commodity analyst.
+            p
+              |John has contributed to a wide variety of publications, and has designed and taught commodity marketing courses. He is a frequent speaker at farm meetings and conferences across Canada and has built relationships with farmers and agribusiness people across the country.
+            p
+              |He received his BA from the University of Western Ontario.
+            p
+              |Residing in London, Ontario, John and his wife Nancy enjoy long-distance running, and spending time with their two daughters, sons-in-law and grandchild.
       // Bio Box Starts Here
       .agc-bio-box
         h4
-          |Jay Bradshaw
+          |Michael Perovich
         .agcap-title-line
         .agc-bio-inner
-          .agc-bio-image
+          .agc-bio-image.--mp
           .agc-bio-text
-            p.u-bold
-              |Background
-            ul.u-ghostlist
-              li
-                |Retired in June 2018 as President, Syngenta Canada Inc.
-              li
-                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
-            p.u-bold
-              |Board Experience
-            ul.u-ghostlist
-              li
-                |Chair and Director of CropLife Canada
-              li
-                |CleanFarms Canada
-              li
-                |Cereals Canada
-              li
-                |ROI (Rural Ontario Institute)
-              li
-                |Ontario 4H Foundation
-            p.u-bold
-              |Education
-            ul.u-ghostlist
-              li
-                |University of Guelph
-              li
-                |MBA from the University of Saskatchewan
-            p.u-bold
-              |Awards
-            ul.u-ghostlist
-              li
-                |CAMA AgriMarketer of the Year
-              li
-                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
-            p.u-bold
-              |Personal
-            ul.u-ghostlist
-              li
-                |Jay and his wife Kathy live in Guelph, Ontario. Their t
+            p
+              |Mike Perovich was raised on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
+            p
+              |Mike started his career as a salesman for Future Farm Supplies in the Aylmer/Tillsonburg area after graduating from Ridgetown College majoring in Ag production and management.
+            p
+              |In 1980, Mike purchased Future Farm Supplies. In 1995 he sold the retail portion of the business and rebranded it to Future Transfer Co. Inc. In time, Future Transfer grew into the largest ag chem & seed logistics/formulation company in eastern Canada. In 2011, Mike expanded the company with the Formation of BlueStar Distribution with John Lansink, ultimately selling the business to Univar Canada in 2015.
+            p
+              |Following the sale of Future Transfer, Mike formed GP Capital, which focuses on leasing equipment, and investing in property and small companies. He is also managing partner of several smaller companies, including family-owned Tillsonbrands Inc. and MyMotors.ca.
+            p
+              |Mike and his wife Trish live in Tillsonburg, Ontario where they enjoy working with family, spending time with their two grandchildren, and collecting classic cars & trucks.
       // Bio Box Starts Here
       .agc-bio-box
         h4
-          |Jay Bradshaw
+          |John Lansink
         .agcap-title-line
-        .agc-bio-inner
-          .agc-bio-image
+        .agc-bio-inner.--flip
+          .agc-bio-image.--jl
           .agc-bio-text
-            p.u-bold
-              |Background
-            ul.u-ghostlist
-              li
-                |Retired in June 2018 as President, Syngenta Canada Inc.
-              li
-                |After 36 years in the Canadian agriculture industry Jay forged long lasting relationships with broad and deep agricultural networks across Canada.
-            p.u-bold
-              |Board Experience
-            ul.u-ghostlist
-              li
-                |Chair and Director of CropLife Canada
-              li
-                |CleanFarms Canada
-              li
-                |Cereals Canada
-              li
-                |ROI (Rural Ontario Institute)
-              li
-                |Ontario 4H Foundation
-            p.u-bold
-              |Education
-            ul.u-ghostlist
-              li
-                |University of Guelph
-              li
-                |MBA from the University of Saskatchewan
-            p.u-bold
-              |Awards
-            ul.u-ghostlist
-              li
-                |CAMA AgriMarketer of the Year
-              li
-                |Queens Diamond Jubilee medal for dedication to Canadian agriculture
-            p.u-bold
-              |Personal
-            ul.u-ghostlist
-              li
-                |Jay and his wife Kathy live in Guelph, Ontario. Their t
+            p
+              |John Lansink grew up on a small farm outside of London, Ontario. The family hog farming business grew very large until its closure in 2004.
+            p
+              |A numbers man, John’s expertise includes finance, business administration, and agribusiness consulting. His career experience includes seven years at General Dynamics in London, Ontario in various finance, business development, and business strategy roles.
+            p
+              |Following his time at General Dynamics, John formed BlueStar Distribution with Mike Perovich in 2011 and grew the company in both eastern and western Canada — ultimately selling it to Univar Corporation in 2015.
+            p
+              |John is currently involved in select startups, and provides consulting services for local farmers who want to grow their businesses.
+            p
+              |John possesses a BA from the University of Guelph, an MBA from Queens University, and has his Certified Management Accountant Degree.
+            p
+              |John and his wife Karin live in Eden, Ontario and stay busy with their growing family of 5 children.
 </template>

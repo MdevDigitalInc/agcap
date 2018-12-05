@@ -1,7 +1,7 @@
 <template lang="pug">
   .agc-main-nav
     .agc-main-nav-content
-      .agc-main-nav-logo
+      img.agc-main-nav-logo(src="/AGCAP_RGB_Secondary.svg" alt="AGCAP Logo")
       .agc-main-nav-links
         nuxt-link.agc-main-nav-link.h5(to="/")
           |Home

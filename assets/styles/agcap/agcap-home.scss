@@ -94,6 +94,9 @@ section.agc-hero {
 
 .agc-hero-image {
   background-color: $color-agcap-red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/home-greenhouse-sun.png');
   position: relative;
   width: 200%;
   left: -50%;
