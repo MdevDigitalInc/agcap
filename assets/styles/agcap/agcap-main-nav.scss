@@ -18,8 +18,24 @@
 }
 
 .agc-main-nav-logo {
+  position: relative;
   width: 300px;
   max-width: 70%;
+  cursor: pointer;
+
+  .agc-main-nav-logo-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 // NAV LINKS
@@ -58,9 +74,16 @@
     color: $color-agcap-red;
     font-size: 28px;
     cursor: pointer;
+    transition: all .2s;
 
     @media #{$phone-only} {
       font-size: 22px;
+    }
+  }
+
+  &:active {
+    i {
+      color: darken($color-agcap-red, 10%);
     }
   }
 }
