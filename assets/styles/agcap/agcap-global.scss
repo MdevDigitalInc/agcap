@@ -20,3 +20,9 @@
 body {
   background-color: $white;
 }
+
+// This should be adjusted in js to accomodate the nav height
+
+.site-wrapper {
+  margin-top: 200px;
+}
