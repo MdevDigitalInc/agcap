@@ -20,3 +20,10 @@
 body {
   background-color: $white;
 }
+
+// This should be adjusted in js to accomodate the nav height
+
+.site-wrapper {
+  position: relative;
+  padding-top: 150px;
+}

@@ -37,8 +37,13 @@
 export default {
   methods: {
     toTop: function () {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      var scrollStep = -window.scrollY / (300 / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+      },15);
     }
   }
 }

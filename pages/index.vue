@@ -34,7 +34,7 @@
         a.agcap-btn(href="/about" title="Learn about who we are")
           |about us
           i.fas.fa-caret-right
-      .agc-featured-image.--left.--cows
+      .agc-featured-image.--left.--plants
     // Investment Section
     section.agc-home-invest
       .agc-featured-blurb

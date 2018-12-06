@@ -133,8 +133,8 @@ section.agc-featured {
     background-image: url('/home-greenhouse-sun.png');
   }
 
-  &.--cows {
-    background-image: url('/home-greenhouse-sun.png');
+  &.--plants {
+    background-image: url('/home-machine-planting.png');
   }
 }
 
@@ -154,5 +154,6 @@ section.agc-featured {
 
   @media #{$laptop-up} {
     width: 60%;
+    margin-bottom: 50px;
   }
 }
