@@ -6,13 +6,13 @@
       .agc-mobile-nav-button(v-on:click="closeMobile")
         i.fas.fa-times
       .agc-mobile-nav-links
-        nuxt-link.agc-mobile-nav-link.h5(to="/" v-on:click="closeMobile")
+        nuxt-link.agc-mobile-nav-link.h5(to="/")
           |Home
-        nuxt-link.agc-mobile-nav-link.h5(to="/about" v-on:click="closeMobile")
+        nuxt-link.agc-mobile-nav-link.h5(to="/about")
           |About
-        nuxt-link.agc-mobile-nav-link.h5(to="/approach" v-on:click="closeMobile")
+        nuxt-link.agc-mobile-nav-link.h5(to="/approach")
           |Approach
-        nuxt-link.agc-mobile-nav-link.h5(to="/contact" v-on:click="closeMobile")
+        nuxt-link.agc-mobile-nav-link.h5(to="/contact")
           |Contact
 </template>
 
