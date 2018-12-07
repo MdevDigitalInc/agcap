@@ -23,12 +23,12 @@ $border-color-passive: rgba(15, 22, 24, 0);
 $color-placeholder: #000;
 
 input {
-  &[type="text"],
   &[type="email"],
   &[type="tel"],
   &[type="password"],
   &[type="search"],
-  &[type="url"] {
+  &[type="url"],
+  &[type="text"] {
     width: 100%;
     border-radius: 0;
     font-family: $form-font;

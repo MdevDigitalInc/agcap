@@ -26,12 +26,12 @@
     padding-right: 215px;
   }
 
-  // DEV ONLY DELETE
-  .agcap-contact-form-container {
-    height: 5px;
-    width: 100%;
-    background-color: red;
-  }
+  // // DEV ONLY DELETE
+  // .agcap-contact-form-container {
+  //   height: 5px;
+  //   width: 100%;
+  //   background-color: red;
+  // }
 }
 
 .agcap-contact-content-right {
@@ -43,7 +43,7 @@
 
   .agcap-contact-image {
     width: 100%;
-    background-color: $color-agcap-navy;
+    background: $color-agcap-navy;
     background-image: url('/contact-machine-arm-plants.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,4 +58,20 @@
       height: 850px;
     }
   }
+}
+
+.mdev-error {
+  border-top: 4px solid red !important;
+  border-bottom: 4px solid red !important;
+  color: red!important;
+}
+
+.ag-cap-submit{
+  font-family: $spec-font;
+  text-transform: uppercase;
+  color: $color-agcap-navy;
+  background-color: $color-agcap-blue;  
+  font-weight: $spec-bold;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
