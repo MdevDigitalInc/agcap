@@ -25,13 +25,6 @@
     width: 66.6%;
     padding-right: 215px;
   }
-
-  // // DEV ONLY DELETE
-  // .agcap-contact-form-container {
-  //   height: 5px;
-  //   width: 100%;
-  //   background-color: red;
-  // }
 }
 
 .agcap-contact-content-right {
@@ -60,13 +53,8 @@
   }
 }
 
-.mdev-error {
-  border-top: 4px solid red !important;
-  border-bottom: 4px solid red !important;
-  color: red!important;
-}
-
 .ag-cap-submit{
+  width: 50%;
   font-family: $spec-font;
   text-transform: uppercase;
   color: $color-agcap-navy;
@@ -74,4 +62,5 @@
   font-weight: $spec-bold;
   font-size: 16px;
   margin-bottom: 15px;
+  padding: 15px 16px 12px 18px;
 }

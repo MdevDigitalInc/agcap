@@ -14,80 +14,64 @@ form {
 }
 
 $form-font: $spec-font;
+$border-color: #d7d7d7;
+$color-placeholder: #36384b;
 
-$form-bg-color-passive: transparent;
-$form-bg-color-active: transparent;
-
-$border-color-active: rgba(15, 22, 24, 1);
-$border-color-passive: rgba(15, 22, 24, 0);
-$color-placeholder: #000;
+label {
+  width: 54px;
+  height: 12px;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #36384b;
+}
 
 input {
+  &[type="text"],
   &[type="email"],
   &[type="tel"],
   &[type="password"],
   &[type="search"],
-  &[type="url"],
-  &[type="text"] {
+  &[type="url"] {
     width: 100%;
     border-radius: 0;
+    border-width: 1px;
     font-family: $form-font;
-    padding: 8px 0;
-    margin-top: 15px;
-    background: $form-bg-color-passive;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    border-color: $border-color;
+    font-size: 16px;
     outline: 0;
-    transition: border .5s, background .5s;
-    border: none;
-    border-bottom: 4px solid $border-color-passive;
-    border-top: 4px solid $border-color-active;
-
-    &:hover, &:focus, &:active {
-      border-top: 4px solid $border-color-passive;
-      border-bottom: 4px solid $border-color-active;
-      background: $form-bg-color-active;
-      padding: 8px;
-    }
-
-    &.--filled {
-      border-top: 4px solid $border-color-passive;
-      border-bottom: 4px solid $border-color-active;
-      text-transform: none;
-    }
 
     &::placeholder {
       color: $color-placeholder;
+      padding: 25px 0 25px 21px;
+      font-weight: 100;
     }
   }
 }
 
 textarea {
   width: 100%;
-  font-family: $form-font;
   border-radius: 0;
-  padding: 8px 0;
-  margin-top: 15px;
-  background: $form-bg-color-passive;
+  border-width: 1px;
+  font-family: $form-font;
+  padding: 20px 0 115px;
+  margin-bottom: 18px;
+  border-color: $border-color;
+  font-size: 16px;
+  resize: none;
   outline: 0;
-  transition: border .5s, background .5s;
-  border: none;
-  border-bottom: 4px solid $border-color-passive;
-  border-top: 4px solid $border-color-active;
-
-  &:hover, &:focus, &:active {
-    border-top: 4px solid $border-color-passive;
-    border-bottom: 4px solid $border-color-active;
-    background: $form-bg-color-active;
-    padding: 8px;
-  }
 
   &::placeholder {
     color: $color-placeholder;
-  }
-
-  &.--filled {
-    border-top: 4px solid $border-color-passive;
-    text-transform: none!important;
-    border-bottom: 4px solid $border-color-active;
+    padding: 10px 0 25px 21px;
+    overflow: auto;
   }
 }
 

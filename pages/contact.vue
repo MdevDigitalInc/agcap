@@ -10,13 +10,17 @@
           |Interested in our services? Request an investor fact sheet.
         .agcap-contact-form-container
           form(id="form" v-on:keyup.enter="submitForm")
-            |Name:*
+            label
+              |Name:*
             input(data-required name="Name" type="text" aria-required="true" placeholder="First and Last Name.")
-            |Email:*
+            label
+              |Email:*
             input(data-required name="Email" type="email" v-on:blur="validateEmail" aria-required="true" placeholder="Email Address.")
-            |Company & Title:*
+            label
+              |Company & Title:*
             input(data-required name="Credentials" type="text" placeholder="Let us know who you are and where you work.")
-            |Message:*
+            label
+              |Message:*
             textarea(data-required name="Message" type="text" class="message" placeholder="Message")
 
             .ag-cap-submit(type="submit" v-on:click.prevent="submitForm")
