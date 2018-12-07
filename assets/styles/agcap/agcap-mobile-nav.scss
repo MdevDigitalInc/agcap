@@ -92,7 +92,9 @@
   padding: 5vh 8% 0;
 
   img {
-    margin-bottom: 5vh;
+    display: block;
+    max-width: 70%;
+    margin: 0 auto 5vh;
   }
 
   p {
