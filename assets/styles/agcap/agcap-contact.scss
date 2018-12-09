@@ -52,3 +52,21 @@
     }
   }
 }
+
+.agcap-contact-form-container.--submitted {
+  display: none;
+}
+
+.agcap-contact-thankyou {
+  opacity: 0;
+  transition: .5s all;
+
+  h2 {
+    color: $color-agcap-navy;
+    margin: 70px 0 20px;
+  }
+
+  &.--active {
+    opacity: 1;
+  }
+}

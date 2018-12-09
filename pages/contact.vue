@@ -27,8 +27,10 @@
               |send request for investor fact sheet
 
         .agcap-contact-thankyou
+          h2
+            |Thank you for your submission.
           p
-            |THANK YOU
+            |We will review the information you have provided and respond appropriately
 
       .agcap-contact-content-right
         .agcap-contact-image
