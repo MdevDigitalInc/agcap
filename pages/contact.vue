@@ -14,7 +14,7 @@
               |Name:*
             input(data-required name="Name" type="text" aria-required="true" placeholder="First and Last Name.")
             label
-              |Email:*
+              |Email Address:*
             input(data-required name="Email" type="email" v-on:blur="validateEmail" aria-required="true" placeholder="Email Address.")
             label
               |Company & Title:*

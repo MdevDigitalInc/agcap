@@ -8,19 +8,16 @@ form {
 /* stylelint-disable */
 /* Disabled because it is valid and I need this level of control*/
 .mdev-error {
-  border-top: 4px solid red !important;
-  border-bottom: 4px solid red !important;
+  border: 2px solid red !important;
   color: red!important;
 }
 
 $form-font: $spec-font;
 $border-color: #d7d7d7;
-$color-placeholder: #36384b;
+$color-placeholder: #a7a7a7;
 
 label {
-  width: 54px;
-  height: 12px;
-  font-family: AktivGrotesk;
+  font-family: 'AktivGrotesk', sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -29,6 +26,8 @@ label {
   letter-spacing: normal;
   text-align: left;
   color: #36384b;
+  display: block;
+  margin-top: 30px;
 }
 
 input {
@@ -40,17 +39,14 @@ input {
   &[type="url"] {
     width: 100%;
     border-radius: 0;
-    border-width: 1px;
     font-family: $form-font;
-    padding: 20px 0;
+    padding: 25px 20px;
     margin-bottom: 15px;
-    border-color: $border-color;
+    border: 1px solid $border-color;
     font-size: 16px;
-    outline: 0;
 
     &::placeholder {
       color: $color-placeholder;
-      padding: 25px 0 25px 21px;
       font-weight: 100;
     }
   }
@@ -61,7 +57,8 @@ textarea {
   border-radius: 0;
   border-width: 1px;
   font-family: $form-font;
-  padding: 20px 0 115px;
+  padding: 20px 25px;
+  min-height: 180px;
   margin-bottom: 18px;
   border-color: $border-color;
   font-size: 16px;
