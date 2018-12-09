@@ -23,13 +23,16 @@
               |Message:*
             textarea(data-required name="Message" type="text" class="message" placeholder="Message")
 
-            .ag-cap-submit(type="submit" v-on:click.prevent="submitForm")
+            button.agcap-btn.--solid(type="submit" v-on:click.prevent="submitForm")
               |send request for investor fact sheet
+
+        .agcap-contact-thankyou
+          p
+            |THANK YOU
 
       .agcap-contact-content-right
         .agcap-contact-image
 </template>
-
 
 <script>
 
@@ -141,7 +144,8 @@ export default{
     },
     // Emit Submitted event upon Ajax success
     formSubmitted() {
-      this.$emit('submitted');
+      $('.agcap-contact-form-container').addClass('--submitted');
+      $('.agcap-contact-thankyou').addClass('--active');
     }
   }
 };
