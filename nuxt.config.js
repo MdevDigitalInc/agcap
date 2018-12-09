@@ -55,7 +55,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#16b1a9' },
+  loading: { color: '#233039' },
 
   /*
   ** Global CSS
@@ -111,7 +111,7 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Replace GTM-XXXXXXX With Client GTM code. - TODO
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }]
+    //['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }]
   ],
   /*
   ** Axios module configuration
