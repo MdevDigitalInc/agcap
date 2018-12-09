@@ -33,8 +33,8 @@
 
 <script>
 
-  
-import $ from 'jquery'
+
+//import $ from 'jquery'
 
 export default{
   name: 'BaseForm',
@@ -130,13 +130,13 @@ export default{
           data: data,
           success: callback,
           error: function() {
-            alertify.error(this.$t("validation.errors.fail"));
+            console.log('Error with form connection');
           }
         });
       }
       // Else, likely SPAM
       else {
-        console.log(this.$t("validation.errors.spam"));
+        console.log('Submission flagged as spam');
       }
     },
     // Emit Submitted event upon Ajax success
