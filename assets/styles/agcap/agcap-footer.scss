@@ -143,13 +143,14 @@
   a {
     font-size: 18px;
     font-weight: 700;
-    padding: 9px 0px;
-    //margin: 0 0px 0 0px;
+    padding: 9px 0 0 0;
+    //margin: 0 150% 0 0;
 
     margin-right: 30px;
     
     @media #{$laptop-only} {
-      margin-right: 30px;
+       margin-right: 60px;
+       margin-left: -28px;
     }
 
     &:last-child {
@@ -201,7 +202,7 @@
   }
 
   @media #{$laptop-only} {
-    padding: 0px 11.5%;
+    padding: 0 11.5% 11.5%;
   }
 
   @media #{$desktop-only} {
@@ -221,7 +222,7 @@
     }
   }
 
-  .fa-arrow-alt-circle-right{
+  .fa-arrow-alt-circle-right {
     display: flex;
     color: $white;
     transform: rotate(-90deg);
