@@ -47,7 +47,7 @@ section.agc-about-intro {
   padding: 20px 8% 25px;
 
   @media #{$tablet-only} {
-    padding: 50px 8% 50px;
+    padding: 50px 8%;
   }
 
   @media #{$laptop-up} {
@@ -238,7 +238,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 55px;
     }
-  
+
     &:last-child {
       margin-bottom: 45px;
     }
@@ -248,7 +248,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 65px;
     }
@@ -258,11 +258,11 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 125px;
     }
-    
+
     &:nth-child( 2 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 200px;
     }
@@ -367,7 +367,7 @@ section.agc-about-bio {
       @media #{$tablet-only} {
         padding-right: 30px;
       }
-  
+
       @media #{$laptop-up} {
         padding-right: 50px;
       }

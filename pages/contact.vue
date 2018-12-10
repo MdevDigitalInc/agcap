@@ -152,10 +152,7 @@ export default{
 
     head () {
       return {
-        title: 'Contact | Ag Capital Canada',
-        meta: [
-          { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
-        ]
+        title: 'Contact | Ag Capital Canada'
       }
     }
   }
