@@ -19,7 +19,7 @@
           |The spirit of the managing principals and the investors will involve interaction with a group of like-minded individuals.
         .agc-intro-vision-alpha
           h2
-            |Our vision
+            |Our Vision
           .agcap-title-line
           p
             |We are forming a group of investors who can offer advice and expertise to the managing principals and may on occasion, offer services for the companies we decide to invest in.
