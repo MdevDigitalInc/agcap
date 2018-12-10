@@ -105,7 +105,6 @@ $button-font-sizes: (
 a,
 p,
 li {
-  line-height: 100%;
   font-weight: 100;
   color: $color-agcap-body;
   @include font-size($p-font-sizes);
