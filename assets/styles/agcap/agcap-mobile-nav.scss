@@ -44,7 +44,8 @@
     margin: 2vh 0;
 
     @media #{$tablet-only} {
-      font-size: 18px;
+      font-size: 36px;
+      margin: 1vh 0;
     }
 
     &:last-child {
@@ -71,7 +72,7 @@
   right: 15px;
   padding: 2px;
   cursor: pointer;
-  
+
   i {
     color: $color-agcap-red;
     font-size: 28px;
@@ -96,6 +97,10 @@
   height: 100vh;
   background-color: $color-agcap-navy;
   padding: 5vh 8% 0;
+
+  @media #{$phone-only} {
+    padding-top: 7vh;
+  }
 
   img {
     display: block;

@@ -7,7 +7,7 @@
           |welcome to
         h1
           |Ag Capital Canada
-        p.--body-large.u-white
+        p.--body-large.u-white.u-ultralight
           |Helping great businesses grow.
       .agc-hero-image
       .agc-hero-panel
