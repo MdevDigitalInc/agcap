@@ -2,18 +2,18 @@
   .agc-main-nav
     .agc-main-nav-content
       .agc-main-nav-logo
-        nuxt-link.agc-main-nav-logo-link(to="/" title="Home")
+        nuxt-link.agc-main-nav-logo-link(to="/" title="Return to home")
         img(src="/AGCAP_RGB_Secondary.svg" alt="AGCAP Logo")
       .agc-main-nav-hamburger(v-on:click="toggleMobile")
         i.fas.fa-bars
       .agc-main-nav-links
-        nuxt-link.agc-main-nav-link.h5(to="/" title="Home")
+        nuxt-link.agc-main-nav-link.h5(to="/" title="Ag Capital Home Page")
           |Home
-        nuxt-link.agc-main-nav-link.h5(to="/approach" title="Approach")
+        nuxt-link.agc-main-nav-link.h5(to="/approach" title="Learn more about our approach")
           |Approach
-        nuxt-link.agc-main-nav-link.h5(to="/about" title="About")
+        nuxt-link.agc-main-nav-link.h5(to="/about" title="Read about our story")
           |About Us
-        nuxt-link.agc-main-nav-link.h5(to="/contact" title="Contact")
+        nuxt-link.agc-main-nav-link.h5(to="/contact" title="Get in touch with Ag Capital")
           |Contact
     .agc-main-nav-graphic
 </template>
