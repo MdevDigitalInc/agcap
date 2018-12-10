@@ -52,6 +52,12 @@
     }
   }
 
+  // UNIQUE OVERRIDE APPROVED
+
+  .agcap-title-line {
+    margin-bottom: 15px;
+  }
+
   .agcap-btn {
     @media screen and (max-width: 379px) {
       font-size: vw-phone(12);
@@ -61,8 +67,8 @@
 
 .agc-mobile-nav-button {
   position: absolute;
-  top: 5vh;
-  right: 8%;
+  top: 15px;
+  right: 15px;
   padding: 2px;
   cursor: pointer;
   
@@ -93,7 +99,6 @@
 
   img {
     display: block;
-    max-width: 70%;
     margin: 0 auto 5vh;
   }
 

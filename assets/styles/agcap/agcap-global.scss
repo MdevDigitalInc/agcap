@@ -6,6 +6,10 @@
   width: 100%;
   margin: 15px 0 30px;
 
+  @media #{$phone-only} {
+    margin-top: 7px;
+  }
+
   &:after {
     position: absolute;
     top: -3px;

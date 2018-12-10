@@ -9,10 +9,10 @@
       .agc-main-nav-links
         nuxt-link.agc-main-nav-link.h5(to="/" title="Home")
           |Home
-        nuxt-link.agc-main-nav-link.h5(to="/about" title="About")
-          |About
         nuxt-link.agc-main-nav-link.h5(to="/approach" title="Approach")
           |Approach
+        nuxt-link.agc-main-nav-link.h5(to="/about" title="About")
+          |About Us
         nuxt-link.agc-main-nav-link.h5(to="/contact" title="Contact")
           |Contact
     .agc-main-nav-graphic
