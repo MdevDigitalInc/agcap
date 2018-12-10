@@ -24,7 +24,7 @@ module.exports = {
       { name:'twitter:site', content: '//URL_TO_SITE_TODO' },
       { name:'twitter:title', content: 'Page Title TODO' },
       { name:'twitter:description', content: 'Client Description TODO' },
-      { name:'twitter:image', content: '/social/twitter-card.png' },
+      { name:'twitter:image', content: '/social/twitter-card.jpg' },
       // Favicon Themeing
       { name:'theme-color', content: '#fff' },
       { name:'msapplication-TileColor', content: '#fff' },
