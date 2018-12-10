@@ -27,7 +27,12 @@ label {
   text-align: left;
   color: #36384b;
   display: block;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  &:first-child {
+    margin-top: 30px;
+  }
 }
 
 input {
@@ -40,10 +45,11 @@ input {
     width: 100%;
     border-radius: 0;
     font-family: $form-font;
-    padding: 25px 20px;
+    padding: 21px 20px;
     margin-bottom: 15px;
     border: 1px solid $border-color;
-    font-size: 16px;
+    font-weight: 100;
+    font-size: 18px;
 
     &::placeholder {
       color: $color-placeholder;
@@ -57,11 +63,12 @@ textarea {
   border-radius: 0;
   border-width: 1px;
   font-family: $form-font;
-  padding: 20px 25px;
+  padding: 21px 20px;
   min-height: 180px;
   margin-bottom: 18px;
   border-color: $border-color;
-  font-size: 16px;
+  font-weight: 100;
+  font-size: 18px;
   resize: none;
   outline: 0;
 

@@ -1,29 +1,41 @@
+.agcap-contact-page {
+  position: relative;
+  width: 100%;
+  padding-top: 5.5vw;
+}
 .agcap-contact-content {
   width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  padding: 0 5%;
 
   @media #{$tablet-only} {
     padding: 0;
   }
 
   @media #{$laptop-up} {
-    padding: 0 0 140px 16%;
+    padding: 0 0 140px 8%;
   }
 }
 
 .agcap-contact-content-left {
   width: 100%;
-  padding: 0 5% 100px;
+  padding: 0 0 100px;
+  position: relative;
+  z-index: 2;
 
   @media #{$tablet-only} {
-    padding: 0 8% 100px;
+    padding: 0 8% 180px;
   }
 
   @media #{$laptop-up} {
-    width: 66.6%;
-    padding-right: 215px;
+    width: 56.6%;
+    padding-right: 10%;
+  }
+
+  @media #{$phone-only} {
+    padding-bottom: 220px;
   }
 }
 
@@ -31,7 +43,7 @@
   width: 100%;
 
   @media #{$laptop-up} {
-    width: 33.3%;
+    width: 43.3%;
   }
 
   .agcap-contact-image {
@@ -40,26 +52,34 @@
     background-image: url('/contact-machine-arm-plants.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% bottom;
-    height: 285px;
-
-    @media #{$tablet-only} {
-      height: 585px;
-    }
+    background-position: 25% bottom;
+    padding-top: 60%;
+    box-shadow: $agcap-img-shadow;
 
     @media #{$laptop-up} {
-      height: 850px;
+      height: 65%;
+    }
+
+    @media #{$desktop-up} {
+      height: 75%;
     }
   }
 }
 
-.agcap-contact-form-container.--submitted {
-  display: none;
+.agcap-contact-form-container {
+  position: relative;
+
+  &.--submitted {
+    display: none;
+  }
 }
 
 .agcap-contact-thankyou {
   opacity: 0;
   transition: .5s all;
+  position: absolute;
+  @include center(vertical);
+  z-index: -1;
 
   h2 {
     color: $color-agcap-navy;
