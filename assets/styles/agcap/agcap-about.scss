@@ -29,16 +29,33 @@ section.agc-about-intro {
   }
 
   @media #{$desktop-up} {
-    margin-bottom: 150px;
+    padding-top: 50px;
+    margin-bottom: 75px;
+  }
+
+  // SINGLE INSTANCE OF h1 MARGIN APPROVED
+
+  h1 {
+    @media #{$desktop-up} {
+      margin-bottom: 50px;
+    }
   }
 }
 
 .agc-intro-text {
   width: 100%;
-  padding: 50px 8% 25px;
+  padding: 20px 8% 25px;
+
+  @media #{$tablet-only} {
+    padding: 50px 8% 50px;
+  }
 
   @media #{$laptop-up} {
     width: 60%;
+    padding: 30px 85px 0 8%;
+  }
+
+  @media #{$desktop-up} {
     padding: 30px 85px 0 16%;
   }
 }
@@ -61,32 +78,47 @@ section.agc-about-intro {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 30px 8%;
+    padding: 30px 8% 10px;
     margin: 0;
 
     @media #{$tablet-only} {
       top: 0;
       width: 84%;
-      padding: 25px;
+      padding: 45px 25px 25px;
       margin: 0 8%;
     }
 
     @media #{$laptop-up} {
       top: 140px;
       width: 410px;
-      padding: 25px;
+      padding: 25px 25px 25px 30px;
+    }
+
+    // UNIQUE LINE HEIGHT APPROVED
+
+    p {
+      line-height: 115%;
     }
   }
 
   .agc-img-box {
     position: relative;
     background-color: $color-agcap-red;
-    background-size: cover;
     background-repeat: no-repeat;
     background-image: url('/about-field-mountains.png');
+    background-size: cover;
     width: 100%;
     height: 660px;
     margin: 110px 0 0;
+
+    @media #{$phone-only} {
+      background-size: 175%;
+      background-position: 35% bottom;
+    }
+
+    @media #{$tablet-only} {
+      height: 440px;
+    }
 
     @media #{$laptop-up} {
       height: 800px;
@@ -102,16 +134,30 @@ section.agc-about-intro {
 
   @media #{$laptop-up} {
     display: block;
-    padding-top: 10px;
+    padding-top: 40px;
+  }
+
+  a {
+    margin-top: 15px;
   }
 }
 
 .agc-intro-vision-omega {
   display: block;
-  margin: 35px 8% 0;
+  margin: 55px 8% 0;
+
+  @media #{$tablet-only} {
+    margin-top: 60px;
+  }
 
   @media #{$laptop-up} {
     display: none;
+  }
+
+  // UNIQUE OVERRIDE APPROVED
+
+  .agcap-title-line {
+    margin-bottom: 15px;
   }
 }
 
@@ -136,10 +182,11 @@ section.agc-about-banner {
 
   @media #{$tablet-only} {
     height: 450px;
+    background-position: center;
   }
 
   @media #{$laptop-only} {
-    height: 628px;
+    height: 525px;
   }
 
   @media #{$desktop-up} {
@@ -163,10 +210,10 @@ section.agc-about-bio {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 85px 8% 35px;
+  padding: 30px 8% 35px;
 
   @media #{$tablet-only} {
-    padding: 85px 8% 35px;
+    padding: 50px 8% 35px;
   }
 
   @media #{$laptop-only} {
@@ -174,7 +221,7 @@ section.agc-about-bio {
   }
 
   @media #{$desktop-up} {
-    padding: 85px 16% 35px;
+    padding: 50px 16% 35px;
   }
 }
 
@@ -188,7 +235,7 @@ section.agc-about-bio {
   flex-direction: column;
 
   @media #{$phone-only} {
-    &:nth-child( n+2 ) {
+    &:nth-child( n+3 ) {
       margin-top: 55px;
     }
   
@@ -198,7 +245,7 @@ section.agc-about-bio {
   }
 
   @media #{$tablet-only} {
-    &:nth-child( n+2 ) {
+    &:nth-child( n+3 ) {
       margin-top: 75px;
     }
   
@@ -208,12 +255,16 @@ section.agc-about-bio {
   }
 
   @media #{$laptop-up} {
-    &:nth-child( n+2 ) {
+    &:nth-child( n+3 ) {
       margin-top: 125px;
+    }
+    
+    &:nth-child( 2 ) {
+      margin-top: 75px;
     }
   
     &:last-child {
-      margin-bottom: 300px;
+      margin-bottom: 200px;
     }
   }
 }
@@ -248,12 +299,13 @@ section.agc-about-bio {
     }
 
     @media #{$laptop-up} {
-      width: 25%;
+      width: 30%;
       height: 400px;
     }
 
     @media #{$desktop-up} {
-      height: 500px;
+      width: 25%;
+      height: 375px;
     }
 
     // Images
@@ -281,12 +333,16 @@ section.agc-about-bio {
 
     @media #{$tablet-only} {
       width: 66.6%;
-      padding: 0 0 0 30px;
+      padding: 10px 0 0 30px;
     }
 
     @media #{$laptop-up} {
+      width: 70%;
+      padding: 10px 0 0 50px;
+    }
+
+    @media #{$desktop-up} {
       width: 75%;
-      padding: 0 0 0 50px;
     }
   }
 

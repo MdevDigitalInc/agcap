@@ -9,10 +9,10 @@
       .agc-main-nav-links
         nuxt-link.agc-main-nav-link.h5(to="/" title="Ag Capital Home Page")
           |Home
-        nuxt-link.agc-main-nav-link.h5(to="/about" title="Read abvout our story")
-          |About
         nuxt-link.agc-main-nav-link.h5(to="/approach" title="Learn more about our approach")
           |Approach
+        nuxt-link.agc-main-nav-link.h5(to="/about" title="Read about our story")
+          |About Us
         nuxt-link.agc-main-nav-link.h5(to="/contact" title="Get in touch with Ag Capital")
           |Contact
     .agc-main-nav-graphic
