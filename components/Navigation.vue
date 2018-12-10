@@ -2,7 +2,7 @@
   .agc-main-nav
     .agc-main-nav-content
       .agc-main-nav-logo
-        nuxt-link.agc-main-nav-logo-link(to="/" title="Return to home")
+        a.agc-main-nav-logo-link(href="/" title="Return to home")
         img(src="/AGCAP_RGB_Secondary.svg" alt="AGCAP Logo")
       .agc-main-nav-hamburger(v-on:click="toggleMobile")
         i.fas.fa-bars
@@ -16,10 +16,22 @@
         nuxt-link.agc-main-nav-link.h5(to="/contact" title="Get in touch with Ag Capital")
           |Contact
     .agc-main-nav-graphic
+      .agc-graphic
 </template>
 
 <script>
 export default {
+  // When mounted, fix the graphical element
+  watch: {
+    $route (to,from) {
+      this.animateNav();
+    }
+  },
+
+  mounted: function() {
+    this.animateNav();
+  },
+
   methods: {
     toggleMobile: function () {
       var y = document.getElementsByClassName("agc-mobile-nav");
@@ -30,6 +42,21 @@ export default {
       } else {
         y[0].classList.add("--hidden");
         document.body.classList.remove("u-freeze-scroll");
+      }
+    },
+
+    animateNav: function() {
+      var links = $('.agc-main-nav-link')
+
+      for ( var i=0; i <= (links.length - 1); i++) {
+        if ( links[i].classList.contains('nuxt-link-exact-active') ) {
+          var linkObject = links[i].getBoundingClientRect();
+          console.log(linkObject);
+
+          $('.agc-graphic').css({
+            'left' : (linkObject.left - linkObject.width) + 'px'
+          });
+        }
       }
     }
   }
