@@ -150,3 +150,13 @@
             p
               |John and his wife Karin live in Eden, Ontario and stay busy with their growing family of 5 children.
 </template>
+
+<script>
+  export default {
+    head () {
+      return {
+        title: 'About Us | Ag Capital Canada'
+      }
+    }
+  }
+</script>

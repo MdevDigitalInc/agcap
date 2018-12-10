@@ -7,24 +7,24 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Ag Capital Canada',
+    title: 'Ag Capital Canada | Helping great businesses grow',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'keywords', content: 'Client, Driven, Keywords, TODO' },
-      { hid: 'description', name: 'description', content: 'Client Description TODO' },
+      { hid: 'description', name: 'description', content: 'Ag Capital Canada offers a unique blend of investment and mentorship designed to take owner-operators to the next, higher level. We use private equity investments to support and foster growth in the Canadian agricultural business sector.' },
       // FB Open Graph
       { property:'fb:app_id', content: 'APP_ID_TODO' },
       { property:'og:type', content: 'website' },
       { property:'og:url', content: '//URL_TO_SITE_TODO' },
-      { property:'og:title', content: 'Page Title TODO' },
+      { property:'og:title', content: 'Ag Capital Canada | Helping great businesses grow' },
       { property:'og:image', content: '/social/facebook-og.jpg' },
       // Twitter Card
       { name:'twitter:card', content: 'summary_large_image' },
       { name:'twitter:site', content: '//URL_TO_SITE_TODO' },
-      { name:'twitter:title', content: 'Page Title TODO' },
-      { name:'twitter:description', content: 'Client Description TODO' },
-      { name:'twitter:image', content: '/social/twitter-card.png' },
+      { name:'twitter:title', content: 'Ag Capital Canada | Helping great businesses grow' },
+      { name:'twitter:description', content: 'Ag Capital Canada offers a unique blend of investment and mentorship designed to take owner-operators to the next, higher level. We use private equity investments to support and foster growth in the Canadian agricultural business sector.' },
+      { name:'twitter:image', content: '/social/twitter-card.jpg' },
       // Favicon Themeing
       { name:'theme-color', content: '#fff' },
       { name:'msapplication-TileColor', content: '#fff' },
@@ -36,7 +36,7 @@ module.exports = {
       { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
       { rel: 'icon', size: '32x32', type: 'image/png', href: '/icons/favicon-32x32.png' },
       { rel: 'icon', size: '16x16', type: 'image/png', href: '/icons/favicon-16x16.png' },
-      { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#fff' },
+      { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel: 'shortcut icon', href: '/icons/favicon.ico' },
       { rel: 'manifest', href: '/icons/site.webmanifest' },
       // Typekit

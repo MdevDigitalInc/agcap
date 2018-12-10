@@ -148,6 +148,12 @@ export default{
     formSubmitted() {
       $('.agcap-contact-form-container').addClass('--submitted');
       $('.agcap-contact-thankyou').addClass('--active');
+    },
+
+    head () {
+      return {
+        title: 'Contact | Ag Capital Canada'
+      }
     }
   }
 };
