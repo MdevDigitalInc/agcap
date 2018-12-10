@@ -2,6 +2,7 @@
 
 .agc-about-page {
   position: relative;
+  padding-top: 150px;
   width: 100%;
   height: auto;
   display: flex;
@@ -125,6 +126,10 @@ section.agc-about-intro {
       height: 800px;
       margin: 0 0 0 10%;
       border-radius: 4px 0 0 4px;
+    }
+
+    @media #{$desktop-only} {
+      height: 900px;
     }
   }
 }
