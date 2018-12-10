@@ -56,7 +56,7 @@ section.agc-about-intro {
   }
 
   @media #{$desktop-up} {
-    padding: 30px 85px 0 16%;
+    padding: 30px 110px 0 16%;
   }
 }
 
@@ -78,7 +78,7 @@ section.agc-about-intro {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 30px 8% 10px;
+    padding: 30px 8%;
     margin: 0;
 
     @media #{$tablet-only} {
@@ -157,7 +157,7 @@ section.agc-about-intro {
   // UNIQUE OVERRIDE APPROVED
 
   .agcap-title-line {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
 
@@ -238,7 +238,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 55px;
     }
-  
+
     &:last-child {
       margin-bottom: 45px;
     }
@@ -248,7 +248,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 65px;
     }
@@ -258,11 +258,11 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 125px;
     }
-    
+
     &:nth-child( 2 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 200px;
     }
@@ -367,7 +367,7 @@ section.agc-about-bio {
       @media #{$tablet-only} {
         padding-right: 30px;
       }
-  
+
       @media #{$laptop-up} {
         padding-right: 50px;
       }
