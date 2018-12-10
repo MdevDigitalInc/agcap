@@ -14,7 +14,7 @@
               |Name:*
             input(data-required name="Name" type="text" aria-required="true" placeholder="First and Last Name.")
             label
-              |Email:*
+              |Email Address:*
             input(data-required name="Email" type="email" v-on:blur="validateEmail" aria-required="true" placeholder="Email Address.")
             label
               |Company & Title:*
@@ -23,18 +23,23 @@
               |Message:*
             textarea(data-required name="Message" type="text" class="message" placeholder="Message")
 
-            .ag-cap-submit(type="submit" v-on:click.prevent="submitForm")
+            button.agcap-btn.--solid(type="submit" v-on:click.prevent="submitForm")
               |send request for investor fact sheet
+
+        .agcap-contact-thankyou
+          h2
+            |Thank you for your submission.
+          p
+            |We will review the information you have provided and respond appropriately
 
       .agcap-contact-content-right
         .agcap-contact-image
 </template>
 
-
 <script>
 
-  
-import $ from 'jquery'
+
+//import $ from 'jquery'
 
 export default{
   name: 'BaseForm',
@@ -130,18 +135,19 @@ export default{
           data: data,
           success: callback,
           error: function() {
-            alertify.error(this.$t("validation.errors.fail"));
+            console.log('Error with form connection');
           }
         });
       }
       // Else, likely SPAM
       else {
-        console.log(this.$t("validation.errors.spam"));
+        console.log('Submission flagged as spam');
       }
     },
     // Emit Submitted event upon Ajax success
     formSubmitted() {
-      this.$emit('submitted');
+      $('.agcap-contact-form-container').addClass('--submitted');
+      $('.agcap-contact-thankyou').addClass('--active');
     }
   }
 };

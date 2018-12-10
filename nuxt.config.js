@@ -46,13 +46,16 @@ module.exports = {
       // Font-Awesome
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.5.0/css/all.css', integrity: 'sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU', crossorigin: 'anonymous' },
 
+    ],
+    script: [
+      {src: 'https://code.jquery.com/jquery-3.3.1.min.js'}
     ]
   },
 
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#16b1a9' },
+  loading: { color: '#233039' },
 
   /*
   ** Global CSS
@@ -108,7 +111,7 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Replace GTM-XXXXXXX With Client GTM code. - TODO
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }]
+    //['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }]
   ],
   /*
   ** Axios module configuration
