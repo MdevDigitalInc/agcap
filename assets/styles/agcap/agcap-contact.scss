@@ -54,7 +54,7 @@
     background-size: cover;
     background-position: 25% bottom;
     padding-top: 60%;
-    box-shadow: 0 0 7px 0 rgba(12, 12, 12, 0.2);
+    box-shadow: $agcap-img-shadow;
 
     @media #{$laptop-up} {
       height: 65%;
