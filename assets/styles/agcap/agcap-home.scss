@@ -14,8 +14,12 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 50%;
+    height: 20%;
     width: 100%;
+
+    @media #{$tablet-prt-only} {
+      height: 22%;
+    }
 
     @media #{$laptop-up} {
       left: 50%;
