@@ -37,7 +37,7 @@
       .agc-featured-image.--left.--plants
     // Investment Section
     section.agc-home-invest
-      .agc-featured-blurb
+      .agc-featured-blurb.--solo
         h2
           |Our Investments
         .agcap-title-line

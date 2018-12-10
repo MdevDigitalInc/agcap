@@ -20,6 +20,9 @@
 
 <script>
 export default {
+  mounted() {
+    this.godPadding();
+  },
   methods: {
     toggleMobile: function () {
       var y = document.getElementsByClassName("agc-mobile-nav");
@@ -31,6 +34,19 @@ export default {
         y[0].classList.add("--hidden");
         document.body.classList.remove("u-freeze-scroll");
       }
+    },
+    godPadding: function () {
+      var nav = document.getElementsByClassName("agc-main-nav");
+
+      var olympus = document.getElementsByClassName("site-wrapper");
+
+      console.log("Nav Height: " + nav[0].getBoundingClientRect().height);
+
+      var amount = nav[0].getBoundingClientRect().height;
+
+      // This isn't really working and its static soooo
+
+      olympus[0].style.paddingTop = "125px";
     }
   }
 }

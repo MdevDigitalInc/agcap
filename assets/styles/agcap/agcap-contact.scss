@@ -1,7 +1,7 @@
 .agcap-contact-page {
   position: relative;
   width: 100%;
-  padding-top: 5.5vw;
+  padding-top: 3vw;
 }
 .agcap-contact-content {
   width: 100%;
@@ -57,6 +57,7 @@
 
     @media #{$laptop-up} {
       height: 65%;
+      border-radius: 4px 0 0 4px;
     }
 
     @media #{$desktop-up} {
