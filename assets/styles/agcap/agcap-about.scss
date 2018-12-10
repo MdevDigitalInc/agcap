@@ -19,19 +19,17 @@ section.agc-about-intro {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 35px;
-  padding-top: 50px;
+  padding-top: 10px;
 
   @media #{$tablet-only} {
     margin-bottom: 50px;
   }
 
   @media #{$laptop-only} {
-    padding-top: 40px;
     margin-bottom: 85px;
   }
 
   @media #{$desktop-up} {
-    padding-top: 50px;
     margin-bottom: 75px;
   }
 

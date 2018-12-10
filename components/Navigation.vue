@@ -44,7 +44,9 @@ export default {
 
       var amount = nav[0].getBoundingClientRect().height;
 
-      olympus[0].style.paddingTop = amount + "px";
+      // This isn't really working and its static soooo
+
+      olympus[0].style.paddingTop = "125px";
     }
   }
 }
