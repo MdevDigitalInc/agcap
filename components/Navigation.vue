@@ -7,13 +7,13 @@
       .agc-main-nav-hamburger(v-on:click="toggleMobile")
         i.fas.fa-bars
       .agc-main-nav-links
-        nuxt-link.agc-main-nav-link.h5(to="/" title="Ag Capital Home Page")
+        nuxt-link.agc-main-nav-link.h5.u-bold(to="/" title="Ag Capital Home Page")
           |Home
-        nuxt-link.agc-main-nav-link.h5(to="/approach" title="Learn more about our approach")
-          |Approach
-        nuxt-link.agc-main-nav-link.h5(to="/about" title="Read about our story")
+        nuxt-link.agc-main-nav-link.h5.u-bold(to="/about" title="Read about our story")
           |About Us
-        nuxt-link.agc-main-nav-link.h5(to="/contact" title="Get in touch with Ag Capital")
+        nuxt-link.agc-main-nav-link.h5.u-bold(to="/approach" title="Learn more about our approach")
+          |Approach
+        nuxt-link.agc-main-nav-link.h5.u-bold(to="/contact" title="Get in touch with Ag Capital")
           |Contact
     .agc-main-nav-graphic
 </template>
