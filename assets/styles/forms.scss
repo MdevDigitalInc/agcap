@@ -8,19 +8,27 @@ form {
 /* stylelint-disable */
 /* Disabled because it is valid and I need this level of control*/
 .mdev-error {
-  border-top: 4px solid red !important;
-  border-bottom: 4px solid red !important;
+  border: 2px solid red !important;
   color: red!important;
 }
 
 $form-font: $spec-font;
+$border-color: #d7d7d7;
+$color-placeholder: #a7a7a7;
 
-$form-bg-color-passive: transparent;
-$form-bg-color-active: transparent;
-
-$border-color-active: rgba(15, 22, 24, 1);
-$border-color-passive: rgba(15, 22, 24, 0);
-$color-placeholder: #000;
+label {
+  font-family: 'AktivGrotesk', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #36384b;
+  display: block;
+  margin-top: 30px;
+}
 
 input {
   &[type="text"],
@@ -32,62 +40,34 @@ input {
     width: 100%;
     border-radius: 0;
     font-family: $form-font;
-    padding: 8px 0;
-    margin-top: 15px;
-    background: $form-bg-color-passive;
-    outline: 0;
-    transition: border .5s, background .5s;
-    border: none;
-    border-bottom: 4px solid $border-color-passive;
-    border-top: 4px solid $border-color-active;
-
-    &:hover, &:focus, &:active {
-      border-top: 4px solid $border-color-passive;
-      border-bottom: 4px solid $border-color-active;
-      background: $form-bg-color-active;
-      padding: 8px;
-    }
-
-    &.--filled {
-      border-top: 4px solid $border-color-passive;
-      border-bottom: 4px solid $border-color-active;
-      text-transform: none;
-    }
+    padding: 25px 20px;
+    margin-bottom: 15px;
+    border: 1px solid $border-color;
+    font-size: 16px;
 
     &::placeholder {
       color: $color-placeholder;
+      font-weight: 100;
     }
   }
 }
 
 textarea {
   width: 100%;
-  font-family: $form-font;
   border-radius: 0;
-  padding: 8px 0;
-  margin-top: 15px;
-  background: $form-bg-color-passive;
+  border-width: 1px;
+  font-family: $form-font;
+  padding: 20px 25px;
+  min-height: 180px;
+  margin-bottom: 18px;
+  border-color: $border-color;
+  font-size: 16px;
+  resize: none;
   outline: 0;
-  transition: border .5s, background .5s;
-  border: none;
-  border-bottom: 4px solid $border-color-passive;
-  border-top: 4px solid $border-color-active;
-
-  &:hover, &:focus, &:active {
-    border-top: 4px solid $border-color-passive;
-    border-bottom: 4px solid $border-color-active;
-    background: $form-bg-color-active;
-    padding: 8px;
-  }
 
   &::placeholder {
     color: $color-placeholder;
-  }
-
-  &.--filled {
-    border-top: 4px solid $border-color-passive;
-    text-transform: none!important;
-    border-bottom: 4px solid $border-color-active;
+    overflow: auto;
   }
 }
 

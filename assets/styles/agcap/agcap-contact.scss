@@ -1,0 +1,72 @@
+.agcap-contact-content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media #{$tablet-only} {
+    padding: 0;
+  }
+
+  @media #{$laptop-up} {
+    padding: 0 0 140px 16%;
+  }
+}
+
+.agcap-contact-content-left {
+  width: 100%;
+  padding: 0 5% 100px;
+
+  @media #{$tablet-only} {
+    padding: 0 8% 100px;
+  }
+
+  @media #{$laptop-up} {
+    width: 66.6%;
+    padding-right: 215px;
+  }
+}
+
+.agcap-contact-content-right {
+  width: 100%;
+
+  @media #{$laptop-up} {
+    width: 33.3%;
+  }
+
+  .agcap-contact-image {
+    width: 100%;
+    background: $color-agcap-navy;
+    background-image: url('/contact-machine-arm-plants.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% bottom;
+    height: 285px;
+
+    @media #{$tablet-only} {
+      height: 585px;
+    }
+
+    @media #{$laptop-up} {
+      height: 850px;
+    }
+  }
+}
+
+.agcap-contact-form-container.--submitted {
+  display: none;
+}
+
+.agcap-contact-thankyou {
+  opacity: 0;
+  transition: .5s all;
+
+  h2 {
+    color: $color-agcap-navy;
+    margin: 70px 0 20px;
+  }
+
+  &.--active {
+    opacity: 1;
+  }
+}

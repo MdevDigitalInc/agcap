@@ -2,12 +2,12 @@
   .agc-main-nav
     .agc-main-nav-content
       .agc-main-nav-logo
-        nuxt-link.agc-main-nav-logo-link(to="/" title="Home")
+        nuxt-link.agc-main-nav-logo-link(to="/" title="Return to home")
         img(src="/AGCAP_RGB_Secondary.svg" alt="AGCAP Logo")
       .agc-main-nav-hamburger(v-on:click="toggleMobile")
         i.fas.fa-bars
       .agc-main-nav-links
-        nuxt-link.agc-main-nav-link.h5(to="/" title="Home")
+        nuxt-link.agc-main-nav-link.h5(to="/" title="Ag Capital Home Page")
           |Home
         nuxt-link.agc-main-nav-link.h5(to="/approach" title="Approach")
           |Approach
