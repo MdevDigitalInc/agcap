@@ -58,7 +58,7 @@
 }
 
 .agc-approach-intro-right-content {
-  display: block;
+  display: relative;
   max-width: 1004px;
   width: 100%;
   padding-top: 56.25%;
@@ -67,6 +67,12 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0% bottom;
+  border-radius: $standard-radius;
+  box-shadow: $agcap-img-shadow;
+
+  @media #{$laptop-up} {
+    border-radius: 4px 0 0 4px;
+  }
 }
 
 // APPROACH: ABOUT SECTION STYLES

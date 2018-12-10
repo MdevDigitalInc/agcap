@@ -104,6 +104,8 @@ section.agc-featured {
   width: 84%;
   height: vw-phone(135);
   order: 2;
+  border-radius: $standard-radius;
+  box-shadow: $agcap-img-shadow;
 
   @media #{$tablet-only} {
     height: vw-tablet(275);

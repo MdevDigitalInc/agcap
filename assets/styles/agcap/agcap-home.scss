@@ -37,6 +37,10 @@ section.agc-hero {
   height: auto;
   margin-bottom: 50px;
 
+  @media #{$tablet-only} {
+    margin-bottom: 75px;
+  }
+
   @media #{$laptop-only} {
     margin-bottom: 85px;
   }
@@ -70,7 +74,7 @@ section.agc-hero {
 
   @media #{$desktop-up} {
     width: 92vw;
-    height: vw-desktop(800);
+    height: vw-desktop(700);
     left: 8vw;
   }
 }
@@ -102,6 +106,8 @@ section.agc-hero {
   left: -50%;
   margin: 0;
   height: vw-phone(345);
+  border-radius: $standard-radius;
+  box-shadow: $agcap-img-shadow;
 
   @media #{$tablet-only} {
     width: 84%;
