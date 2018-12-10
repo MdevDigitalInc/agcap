@@ -46,7 +46,7 @@ export default {
 
       // This isn't really working and its static soooo
 
-      olympus[0].style.paddingTop = "125px";
+      olympus[0].style.paddingTop = amount + 'px';
     }
   }
 }
