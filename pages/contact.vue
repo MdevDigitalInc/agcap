@@ -24,7 +24,7 @@
             textarea(data-required name="Message" type="text" class="message" placeholder="Message")
 
             button.agcap-btn.--solid(type="submit" v-on:click.prevent="submitForm")
-              |send request for investor fact sheet
+              |Send Request
 
         .agcap-contact-thankyou
           h2
