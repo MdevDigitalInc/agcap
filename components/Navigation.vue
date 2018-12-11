@@ -24,13 +24,26 @@ export default {
   // When mounted, fix the graphical element
   watch: {
     $route (to,from) {
-      this.animateNav();
+      var callback = this.animateNav;
+      setTimeout(function() {
+        callback();
+      },50);
     }
   },
 
   mounted: function() {
+    // Resize timer to debounce scroll
+    let resizeTimer;
+    let resizeTime = 50;
+    // Initialize nav padding
     this.godPadding();
     this.animateNav();
+
+    // Adjust arrow size on resize
+    $(window).resize(() => {
+      clearTimeout( resizeTimer );
+      resizeTimer = setTimeout( this.godPadding, resizeTime );
+    });
   },
 
   methods: {
@@ -47,15 +60,21 @@ export default {
     },
 
     animateNav: function() {
+      // Get all main nav links
       var links = $('.agc-main-nav-link')
+      var rail = $('.agc-main-nav-graphic')[0].getBoundingClientRect().top;
 
+      // Step through the array and find the active one.
       for ( var i=0; i <= (links.length - 1); i++) {
+        // Active link has nuxt-link-exact-active
         if ( links[i].classList.contains('nuxt-link-exact-active') ) {
+          // Assign the active link to an object
+          var pureObject = links[i];
           var linkObject = links[i].getBoundingClientRect();
-          console.log(linkObject);
 
+          // Move the graphic to the desired X coordinate
           $('.agc-graphic').css({
-            'left' : (linkObject.left - linkObject.width) + 'px'
+            'left' : (linkObject.left + (linkObject.width * .5)) + 'px'
           });
         }
       }
@@ -65,8 +84,6 @@ export default {
       var nav = document.getElementsByClassName("agc-main-nav");
 
       var olympus = document.getElementsByClassName("site-wrapper");
-
-      console.log("Nav Height: " + nav[0].getBoundingClientRect().height);
 
       var amount = nav[0].getBoundingClientRect().height;
 
