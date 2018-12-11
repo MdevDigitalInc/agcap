@@ -7,7 +7,7 @@
           |welcome to
         h1
           |Ag Capital Canada
-        p.--body-large.u-white
+        p.--body-large.u-white.u-ultralight
           |Helping great businesses grow.
       .agc-hero-image
       .agc-hero-panel
@@ -37,7 +37,7 @@
       .agc-featured-image.--left.--plants
     // Investment Section
     section.agc-home-invest
-      .agc-featured-blurb
+      .agc-featured-blurb.--solo
         h2
           |Our Investments
         .agcap-title-line

@@ -57,3 +57,13 @@
           |about us
           i.fas.fa-caret-right
 </template>
+
+<script>
+  export default {
+    head () {
+      return {
+        title: 'Our Approach | Ag Capital Canada'
+      }
+    }
+  }
+</script>

@@ -31,6 +31,8 @@
     .agc-footer-bumper
       span
         |Copyright &copy; {{ year }} Ag Capital Canada
+      a.agc-top.u-white(v-on:click="toTop" title="Return to the top")
+        i.fas.fa-arrow-alt-circle-right
 </template>
 
 <script>

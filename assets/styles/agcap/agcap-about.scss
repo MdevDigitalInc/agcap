@@ -2,11 +2,16 @@
 
 .agc-about-page {
   position: relative;
+  padding-top: 100px;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+
+  @media #{$desktop-up} {
+    padding-top: 150px;
+  }
 }
 
 //  ABOUT: INTRO SECTION
@@ -19,6 +24,7 @@ section.agc-about-intro {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 35px;
+  padding-top: 10px;
 
   @media #{$tablet-only} {
     margin-bottom: 50px;
@@ -29,7 +35,6 @@ section.agc-about-intro {
   }
 
   @media #{$desktop-up} {
-    padding-top: 50px;
     margin-bottom: 75px;
   }
 
@@ -47,7 +52,7 @@ section.agc-about-intro {
   padding: 20px 8% 25px;
 
   @media #{$tablet-only} {
-    padding: 50px 8% 50px;
+    padding: 50px 8%;
   }
 
   @media #{$laptop-up} {
@@ -56,7 +61,7 @@ section.agc-about-intro {
   }
 
   @media #{$desktop-up} {
-    padding: 30px 85px 0 16%;
+    padding: 30px 110px 0 16%;
   }
 }
 
@@ -78,7 +83,7 @@ section.agc-about-intro {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 30px 8% 10px;
+    padding: 30px 8%;
     margin: 0;
 
     @media #{$tablet-only} {
@@ -110,6 +115,7 @@ section.agc-about-intro {
     width: 100%;
     height: 660px;
     margin: 110px 0 0;
+    box-shadow: $agcap-img-shadow;
 
     @media #{$phone-only} {
       background-size: 175%;
@@ -123,6 +129,11 @@ section.agc-about-intro {
     @media #{$laptop-up} {
       height: 800px;
       margin: 0 0 0 10%;
+      border-radius: 4px 0 0 4px;
+    }
+
+    @media #{$desktop-only} {
+      height: 900px;
     }
   }
 }
@@ -157,7 +168,7 @@ section.agc-about-intro {
   // UNIQUE OVERRIDE APPROVED
 
   .agcap-title-line {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
 
@@ -179,6 +190,7 @@ section.agc-about-banner {
   background-image: url('/about-eggs.png');
   width: 84%;
   height: 210px;
+  border-radius: 4px;
 
   @media #{$tablet-only} {
     height: 450px;
@@ -238,7 +250,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 55px;
     }
-  
+
     &:last-child {
       margin-bottom: 45px;
     }
@@ -248,7 +260,7 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 65px;
     }
@@ -258,11 +270,11 @@ section.agc-about-bio {
     &:nth-child( n+3 ) {
       margin-top: 125px;
     }
-    
+
     &:nth-child( 2 ) {
       margin-top: 75px;
     }
-  
+
     &:last-child {
       margin-bottom: 200px;
     }
@@ -291,6 +303,7 @@ section.agc-about-bio {
 
     @media #{$phone-only} {
       margin: 0 auto 25px;
+      height: 400px;
     }
 
     @media #{$tablet-only} {
@@ -315,15 +328,15 @@ section.agc-about-bio {
     }
 
     &.--jd {
-      background-image: url('/bio-jay-bradshaw.png');
+      background-image: url('/john-deputter.jpg');
     }
 
     &.--mp {
-      background-image: url('/bio-jay-bradshaw.png');
+      background-image: url('/mike-perovich.jpg');
     }
 
     &.--jl {
-      background-image: url('/bio-jay-bradshaw.png');
+      background-image: url('/john-lansink.jpg');
     }
   }
 
@@ -367,7 +380,7 @@ section.agc-about-bio {
       @media #{$tablet-only} {
         padding-right: 30px;
       }
-  
+
       @media #{$laptop-up} {
         padding-right: 50px;
       }
