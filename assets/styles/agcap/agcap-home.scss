@@ -130,7 +130,7 @@ section.agc-hero {
     height: vw-tablet(345);
   }
 
-  @media #{$laptop-up} {
+  @media #{$laptop-only} {
     width: 75%;
     margin: 0 0 0 8%;
     left: 8%;
@@ -140,6 +140,9 @@ section.agc-hero {
   }
 
   @media #{$desktop-up} {
+    width: 75%;
+    margin: 0 0 0 8%;
+    left: 8%;
     max-width: 1440px;
     max-height: 650px;
     height: vw-desktop(625);
