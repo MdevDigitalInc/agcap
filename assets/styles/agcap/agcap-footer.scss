@@ -111,6 +111,7 @@
 
   @media #{$tablet-only} {
     padding: 0 0 65px 70px;
+    width: 385px;
   }
 
   h4 {
@@ -178,9 +179,10 @@
   .agc-top {
     text-transform: uppercase;
     font-weight: $spec-bold;
+    transition: all .3s;
 
     &:hover {
-      color: darken($white, 10%);
+      color: lighten($color-agcap-red, 10%);
     }
   }
 }
@@ -202,7 +204,7 @@
   }
 
   @media #{$laptop-only} {
-    padding: 0 11.5% 11.5%;
+    padding: 0 11.5% 3%;
   }
 
   @media #{$desktop-only} {

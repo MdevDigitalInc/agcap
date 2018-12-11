@@ -2,7 +2,6 @@
 
 .agc-about-page {
   position: relative;
-  padding-top: 100px;
   width: 100%;
   height: auto;
   display: flex;
@@ -42,7 +41,7 @@ section.agc-about-intro {
 
   h1 {
     @media #{$desktop-up} {
-      margin-bottom: 50px;
+      margin-bottom: 35px;
     }
   }
 }

@@ -91,7 +91,11 @@
     padding: 100px 50px;
   }
 
-  @media #{$laptop-up} {
+  @media #{$laptop-only} {
+    padding: 150px 8%;
+  }
+
+  @media #{$desktop-up} {
     padding: 250px 8%;
   }
 }
