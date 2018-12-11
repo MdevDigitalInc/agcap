@@ -9,10 +9,10 @@
       .agc-main-nav-links
         nuxt-link.agc-main-nav-link.h5.u-bold(to="/" title="Ag Capital Home Page")
           |Home
-        nuxt-link.agc-main-nav-link.h5.u-bold(to="/about" title="Read about our story")
-          |About Us
         nuxt-link.agc-main-nav-link.h5.u-bold(to="/approach" title="Learn more about our approach")
           |Approach
+        nuxt-link.agc-main-nav-link.h5.u-bold(to="/about" title="Read about our story")
+          |About Us
         nuxt-link.agc-main-nav-link.h5.u-bold(to="/contact" title="Get in touch with Ag Capital")
           |Contact
     .agc-main-nav-graphic
@@ -34,15 +34,16 @@ export default {
   mounted: function() {
     // Resize timer to debounce scroll
     let resizeTimer;
+    let navTimer;
     let resizeTime = 50;
     // Initialize nav padding
     this.godPadding();
     this.animateNav();
 
-    // Adjust arrow size on resize
     $(window).resize(() => {
       clearTimeout( resizeTimer );
       resizeTimer = setTimeout( this.godPadding, resizeTime );
+      navTimer = setTimeout( this.animateNav, resizeTime );
     });
   },
 

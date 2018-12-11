@@ -104,13 +104,20 @@
     border-radius: 2.5px;
     background: $color-agcap-red;
     border: 3px solid $color-agcap-red;
+    opacity: 0;
+
+    @media #{$laptop-up} {
+      opacity: 1;
+    }
   }
 }
 
-.page-enter-active, .page-leave-active {
-  transition: all .30s ease-out;
+.page-enter-active,
+.page-leave-active {
+  transition: all .3s ease-out;
 }
-.page-enter, .page-leave-active {
+.page-enter,
+.page-leave-active {
   opacity: 0;
   transform-origin: 50% 50%;
 }
