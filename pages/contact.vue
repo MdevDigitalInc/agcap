@@ -18,7 +18,7 @@
             input(data-required name="Email" type="email" v-on:blur="validateEmail" aria-required="true" placeholder="Email Address.")
             label
               |Company & Title:*
-            input(data-required name="Credentials" type="text" placeholder="Let us know who you are and where you work.")
+            input(data-required name="Credentials" type="text" placeholder="Let us know who you are.")
             label
               |Message:*
             textarea(data-required name="Message" type="text" class="message" placeholder="Message")

@@ -2,12 +2,16 @@
 
 .agc-about-page {
   position: relative;
-  padding-top: 150px;
+  padding-top: 100px;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+
+  @media #{$desktop-up} {
+    padding-top: 150px;
+  }
 }
 
 //  ABOUT: INTRO SECTION
@@ -299,6 +303,7 @@ section.agc-about-bio {
 
     @media #{$phone-only} {
       margin: 0 auto 25px;
+      height: 400px;
     }
 
     @media #{$tablet-only} {
