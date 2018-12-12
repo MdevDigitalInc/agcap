@@ -105,36 +105,33 @@ section.agc-hero {
 }
 
 .agc-hero-image {
-  background-color: $color-agcap-red;
+  background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url('/home-hero-field-graph.png');
   position: relative;
-  width: 200%;
-  left: -50%;
+  width: 100%;
   margin: 0;
-  height: vw-phone(345);
   border-radius: $standard-radius;
   box-shadow: $agcap-img-shadow;
+  padding-top: 34%;
 
   @media #{$phone-only} {
     background-position: center;
+    padding-top: 45%;
     background-size: auto 100%;
-    height: 185px;
   }
 
   @media #{$tablet-only} {
     width: 84%;
     left: 0;
     margin: 0 8%;
-    height: vw-tablet(345);
   }
 
   @media #{$laptop-only} {
     width: 75%;
     margin: 0 0 0 8%;
     left: 8%;
-    height: 424px;
     background-position: center;
     background-size: auto 100%;
   }
@@ -143,8 +140,5 @@ section.agc-hero {
     width: 75%;
     margin: 0 0 0 8%;
     left: 8%;
-    max-width: 1440px;
-    max-height: 650px;
-    height: vw-desktop(625);
   }
 }
