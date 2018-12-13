@@ -1,4 +1,11 @@
 // APPROACH: INTRO SECTION
+.agc-approach-page {
+  padding-top: 3vw;
+
+  @media #{$phone-only} {
+    padding-top: 6vw;
+  }
+}
 
 .agc-approach-intro {
   width: 100%;

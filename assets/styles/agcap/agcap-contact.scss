@@ -2,6 +2,10 @@
   position: relative;
   width: 100%;
   padding-top: 3vw;
+
+  @media #{$phone-only} {
+    padding-top: 6vw;
+  }
 }
 .agcap-contact-content {
   width: 100%;
