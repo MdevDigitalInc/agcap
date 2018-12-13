@@ -33,12 +33,12 @@ module.exports = {
     link: [
       // Favicon assets generated through https://realfavicongenerator.net/
       // Please see README in /static/icons for  more info
-      { rel: 'apple-touch-icon', size: '180x180', href: '/icons/apple-touch-icon.png' },
-      { rel: 'icon', size: '32x32', type: 'image/png', href: '/icons/favicon-32x32.png' },
-      { rel: 'icon', size: '16x16', type: 'image/png', href: '/icons/favicon-16x16.png' },
-      { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#5bbad5' },
-      { rel: 'shortcut icon', href: '/icons/favicon.ico' },
-      { rel: 'manifest', href: '/icons/site.webmanifest' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/icon/apple-touch-icon.png' },
+      { rel: 'icon', size: '32x32', type: 'image/png', href: '/icon/favicon-32x32.png' },
+      { rel: 'icon', size: '16x16', type: 'image/png', href: '/icon/favicon-16x16.png' },
+      { rel: 'mask-icon', href: '/icon/safari-pinned-tab.svg', color: '#5bbad5' },
+      { rel: 'shortcut icon', href: '/icon/favicon.ico' },
+      { rel: 'manifest', href: '/icon/site.webmanifest' },
       // Typekit
       { rel: 'stylesheet', href: 'https://use.typekit.net/ubz4jze.css' },
       // Google Fonts
