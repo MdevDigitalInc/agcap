@@ -30,7 +30,7 @@
           |Who We Are
         .agcap-title-line
         p
-          |We’re a group of down-to-earth farmers, entrepreneurs and ag-business folks from across Canada. Our team offers a unique mix of industry persepctives and specialties, with shared values of entrepreneurialism, hard work and unwavering ethics.
+          |We’re a group of down-to-earth farmers, entrepreneurs and ag-business folks from across Canada. Our team offers a unique mix of industry perspectives and specialties, with shared values of entrepreneurialism, hard work and unwavering ethics.
         a.agcap-btn(href="/about" title="Learn about who we are")
           |about us
           i.fas.fa-caret-right
