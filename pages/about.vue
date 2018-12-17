@@ -114,13 +114,27 @@
       // Bio Box Starts Here
       .agc-bio-box
         h4
+          |Greg Andrukow
+        .agcap-title-line
+        .agc-bio-inner
+          .agc-bio-image.--ga
+          .agc-bio-text
+            p
+              |Greg Andrukow, past CEO and major shareholder of Andrukow Group Solutions Inc. (AGSI), is a known leader in the Ag Retail Community. Prior to the sale of the business in 2016 and over the course of 37 years, AGSI had become one of the largest independent Ag Retailers in North America. AGSI was instrumental in developing one of the first high clearance sprayers, implementing variable rate seed and fertilizer application technology, and also developing an App enabling their customers to load product 24/7, leading the industry in technology.
+            p
+              |A visionary, Mr. Andrukow has a passion for Ag and has been instrumental in other businesses and both coach and investor. He currently serves as a board member and shareholder of several private companies.
+            p
+              |Greg and his wife Esther live in Camrose, Alberta. They have 3 adult children and 5 grandchildren and enjoy spending time with family. Greg enjoys water sports, boats, and maintaining a healthy lifestyle.
+      // Bio Box Starts Here
+      .agc-bio-box
+        h4
           |Michael Perovich
         .agcap-title-line
         .agc-bio-inner.--flip
           .agc-bio-image.--mp
           .agc-bio-text
             p
-              |Mike Perovich was raised on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
+              |Mike Perovich was raisedit says a lot about a  on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
             p
               |Mike started his career as a salesman for Future Farm Supplies in the Aylmer/Tillsonburg area after graduating from Ridgetown College majoring in Ag production and management.
             p

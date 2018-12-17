@@ -246,6 +246,8 @@ section.agc-about-bio {
   flex-direction: column;
 
   @media #{$phone-only} {
+    // n+3 because the first child is a <p>
+    // badboidevtimes, this selects the 2nd bio onward
     &:nth-child( n+3 ) {
       margin-top: 55px;
     }
@@ -327,15 +329,19 @@ section.agc-about-bio {
     }
 
     &.--jd {
-      background-image: url('/john-deputter.png');
+      background-image: url('/bio-john-deputter.png');
+    }
+
+    &.--ga {
+      background-image: url('/bio-greg-andrukow.png');
     }
 
     &.--mp {
-      background-image: url('/mike-perovich.png');
+      background-image: url('/bio-mike-perovich.png');
     }
 
     &.--jl {
-      background-image: url('/john-lansink.png');
+      background-image: url('/bio-john-lansink.png');
     }
   }
 
