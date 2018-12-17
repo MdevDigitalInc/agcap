@@ -116,7 +116,7 @@
         h4
           |Michael Perovich
         .agcap-title-line
-        .agc-bio-inner
+        .agc-bio-inner.--flip
           .agc-bio-image.--mp
           .agc-bio-text
             p
@@ -134,7 +134,7 @@
         h4
           |John Lansink
         .agcap-title-line
-        .agc-bio-inner.--flip
+        .agc-bio-inner
           .agc-bio-image.--jl
           .agc-bio-text
             p
