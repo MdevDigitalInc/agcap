@@ -134,7 +134,7 @@
           .agc-bio-image.--mp
           .agc-bio-text
             p
-              |Mike Perovich was raisedit says a lot about a  on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
+              |Mike Perovich was raised on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
             p
               |Mike started his career as a salesman for Future Farm Supplies in the Aylmer/Tillsonburg area after graduating from Ridgetown College majoring in Ag production and management.
             p
