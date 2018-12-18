@@ -120,7 +120,7 @@
           .agc-bio-image.--ga
           .agc-bio-text
             p
-              |Greg Andrukow is President / CEO of SDMC Ag Inc and Point Forward Solutions Inc., which specialize in cutting-edge precision agriculture solutions.
+              |Greg Andrukow is President / CEO of SDMC Ag Inc. and Point Forward Solutions Inc., which specialize in cutting-edge precision agriculture solutions.
             p
               |Previously, Greg was CEO and major shareholder of Andrukow Group Solutions Inc. (AGSI), a leader in the ag retail community for 37 years. Prior to its sale in 2016, AGSI was one of the largest independent ag retailers in North America. AGSI was instrumental in leading the industry through its various innovations, including developing one of the first high clearance sprayers, implementing variable rate seed and fertilizer application technology, and creating an app making it possible for customers to load product 24/7.
             p
