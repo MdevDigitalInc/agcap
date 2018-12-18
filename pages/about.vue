@@ -120,11 +120,13 @@
           .agc-bio-image.--ga
           .agc-bio-text
             p
-              |Greg Andrukow, past CEO and major shareholder of Andrukow Group Solutions Inc. (AGSI), is a known leader in the Ag Retail Community. Prior to the sale of the business in 2016 and over the course of 37 years, AGSI had become one of the largest independent Ag Retailers in North America. AGSI was instrumental in developing one of the first high clearance sprayers, implementing variable rate seed and fertilizer application technology, and also developing an App enabling their customers to load product 24/7, leading the industry in technology.
+              |Greg Andrukow is President / CEO of SDMC Ag Inc and Point Forward Solutions Inc., which specialize in cutting-edge precision agriculture solutions.
             p
-              |A visionary, Mr. Andrukow has a passion for Ag and has been instrumental in other businesses and both coach and investor. He currently serves as a board member and shareholder of several private companies.
+              |Previously, Greg was CEO and major shareholder of Andrukow Group Solutions Inc. (AGSI), a leader in the ag retail community for 37 years. Prior to its sale in 2016, AGSI was one of the largest independent ag retailers in North America. AGSI was instrumental in leading the industry through its various innovations, including developing one of the first high clearance sprayers, implementing variable rate seed and fertilizer application technology, and creating an app making it possible for customers to load product 24/7.
             p
-              |Greg and his wife Esther live in Camrose, Alberta. They have 3 adult children and 5 grandchildren and enjoy spending time with family. Greg enjoys water sports, boats, and maintaining a healthy lifestyle.
+              |Greg is known as an innovator and forward-thinker. He’s also a business coach and investor, and serves as a board member and shareholder of several private companies.
+            p
+              |Greg and his wife Esther live in Camrose Alberta. They have three adult children and five grandchildren. Greg enjoys water sports, boats, and maintaining a healthy lifestyle.
       // Bio Box Starts Here
       .agc-bio-box
         h4
