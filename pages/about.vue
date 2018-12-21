@@ -12,7 +12,7 @@
           |Ag Capital Canada involves two entities:
         ul
           li
-            |A General Partnership (GP) consisting of five managing principals. These principals are Jay Bradshaw, John DePutter, John Lansink, Michael Perovich and a fifth, as-yet-to-be announced individual who will reside (and have experience) in Western Canada.
+            |A General Partnership (GP) consisting of five managing principals. These principals are Jay Bradshaw, John DePutter, John Lansink, Michael Perovich and Greg Andrukow.
           li
             |A Limited Partnership (LP) consisting of investors. All of the five General Partners are also investors. A total of no more than 50 investors will constitute the Limited Partnership.
         p
