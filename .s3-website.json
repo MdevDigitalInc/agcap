@@ -7,6 +7,6 @@
    "corsConfiguration": [],
    "enableCloudfront": false,
    "retries": 20,
-   "domain": "ag-cap-test",
+   "domain": "agcap-test",
    "configFile": ".s3-website.json"
 }

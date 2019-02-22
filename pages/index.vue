@@ -41,9 +41,9 @@
         h2
           |Our Investments
         .agcap-title-line
-        p
+        p(style="margin-bottom: 80px;")
           |We aim to discover, develop and nurture proven Canadian agricultural businesses that are already off to a strong start. Our blend of investment and mentorship will help agricultural innovators make a lasting impact.
-        a.agcap-btn(href="/contact" title="Request investor info package")
+        //-a.agcap-btn(href="/contact" title="Request investor info package")
           |Request investor info package
           i.fas.fa-caret-right
       .agc-featured-empty
