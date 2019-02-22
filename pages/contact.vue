@@ -5,9 +5,7 @@
         h5
           |CONTACT
         h1.u-navy
-          |Grow with us
-        p.--body-large
-          |Interested in our services? Request an investor fact sheet.
+          |Get in touch
         .agcap-contact-form-container
           form(id="form" v-on:keyup.enter="submitForm")
             label

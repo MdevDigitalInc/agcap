@@ -7,7 +7,7 @@
           .agc-footer-blurb
             p.u-white
               |50 Clearview Drive<br>Tillsonburg, ON<br>N4G 4G8<br><br>519-842-7609<br>info@agcapitalcanada.com
-        .agc-footer-contact
+        //-.agc-footer-contact
           h4.u-white
             |Grow With Us
           .agcap-title-line

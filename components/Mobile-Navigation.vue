@@ -12,10 +12,10 @@
           |About Us
         nuxt-link.agc-mobile-nav-link.h5(to="/contact" title="Get in touch with Ag Capital")
           |Contact
-      h4
+      //-h4
         |Grow With Us
-      .agcap-title-line
-      a.agcap-btn.--solid(href="/contact" title="Learn about who we are")
+      //-.agcap-title-line
+      //-a.agcap-btn.--solid(href="/contact" title="Learn about who we are")
         |request an investor fact sheet
     .agcap-mobile-nav-footer
       img.agc-footer-logo(src="/AGCAP_RGB_Secondary_White.svg" alt="Ag Capital Brand")
