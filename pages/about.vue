@@ -82,6 +82,7 @@
         .agcap-title-line
         .agc-bio-inner
           .agc-bio-image.--jb
+            img(src="/bio-jay-bradshaw.png")
           .agc-bio-text
             p
               |Jay Bradshaw retired in June 2018 as President of Syngenta Canada Inc. During his 36 years in the Canadian agriculture industry, Jay forged many long-lasting relationships with agricultural networks across Canada which he maintains today.
