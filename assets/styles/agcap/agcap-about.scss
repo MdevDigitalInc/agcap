@@ -299,66 +299,73 @@ section.agc-about-bio {
 
   .agc-bio-image {
     order: 1;
-    border-radius: 4px;
-    box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
+    //border-radius: 4px;
+    //box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
     // turn of max width
     //max-width: 300px;
-    background-color: $white;
-    background-size: cover;
-    background-repeat: no-repeat;
+    //background-color: $white;
+    //background-size: cover;
+    //background-repeat: no-repeat;
     width: 100%;
-    height: 215px;
+    //height: 215px;
+    height: auto;
 
     @media #{$phone-only} {
       margin: 0 auto 25px;
-      height: 400px;
+      //height: 400px;
     }
 
     @media #{$tablet-only} {
       //was 33.3%
       width: 100%;
-      height: 385px;
+      //height: 385px;
     }
 
     @media #{$laptop-up} {
       //was 30%
       width: 30%;
-      height: 400px;
+      //height: 400px;
     }
 
     @media #{$desktop-up} {
       //was 25%
       width: 45%;
-      height: 375px;
+      //height: 375px;
     }
 
-    //will use to scale img tags when they are added
-    .agc-bio-image img {
-      width: 100%;
-      height: auto;
-    }
+
 
     // Images
 
     &.--jb {
-      background-image: url('/bio-jay-bradshaw.png');
+      //background-image: url('/bio-jay-bradshaw.png');
     }
 
     &.--jd {
-      background-image: url('/bio-john-deputter.png');
+      //background-image: url('/bio-john-deputter.png');
     }
 
     &.--ga {
-      background-image: url('/bio-greg-andrukow.png');
+      //background-image: url('/bio-greg-andrukow.png');
     }
 
     &.--mp {
-      background-image: url('/bio-mike-perovich.png');
+      //background-image: url('/bio-mike-perovich.png');
     }
 
     &.--jl {
-      background-image: url('/bio-john-lansink.png');
+      //background-image: url('/bio-john-lansink.png');
     }
+  }
+
+
+  //will use to scale img tags when they are added
+  .agc-bio-image img {
+    width: 100% !important;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
+    display: block;
   }
 
   .agc-bio-text {
