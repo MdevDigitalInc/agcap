@@ -375,7 +375,7 @@ section.agc-about-bio {
     @media #{$tablet-only} {
       // was 66.66%
       width: 100%;
-      padding: 10px 0 0 30px;
+      padding: 40px 0 0 0px;
     }
 
     @media #{$laptop-up} {
@@ -413,6 +413,7 @@ section.agc-about-bio {
 
       @media #{$tablet-only} {
         padding-right: 30px;
+
       }
 
       @media #{$laptop-up} {
