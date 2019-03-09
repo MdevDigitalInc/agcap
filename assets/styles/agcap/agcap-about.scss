@@ -290,7 +290,7 @@ section.agc-about-bio {
   @media #{$phone-only} {
     flex-wrap: wrap;
   }
-  // added break point
+  // added break point for tablet
   @media #{$tablet-only} {
     flex-wrap: wrap;
   }
@@ -299,6 +299,7 @@ section.agc-about-bio {
 
   .agc-bio-image {
     order: 1;
+    //will be removed
     //border-radius: 4px;
     //box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
     // turn of max width
@@ -307,12 +308,14 @@ section.agc-about-bio {
     //background-size: cover;
     //background-repeat: no-repeat;
     width: 100%;
+    //will be removed
     //height: 215px;
-    height: auto;
+    //height: auto;
+
+
 
     @media #{$phone-only} {
       margin: 0 auto 25px;
-      //height: 400px;
     }
 
     @media #{$tablet-only} {
@@ -337,25 +340,27 @@ section.agc-about-bio {
 
     // Images
 
-    &.--jb {
-      //background-image: url('/bio-jay-bradshaw.png');
-    }
 
-    &.--jd {
-      //background-image: url('/bio-john-deputter.png');
-    }
-
-    &.--ga {
-      //background-image: url('/bio-greg-andrukow.png');
-    }
-
-    &.--mp {
-      //background-image: url('/bio-mike-perovich.png');
-    }
-
-    &.--jl {
-      //background-image: url('/bio-john-lansink.png');
-    }
+    //Will be removed
+    // &.--jb {
+    //   //background-image: url('/bio-jay-bradshaw.png');
+    // }
+    //
+    // &.--jd {
+    //   //background-image: url('/bio-john-deputter.png');
+    // }
+    //
+    // &.--ga {
+    //   //background-image: url('/bio-greg-andrukow.png');
+    // }
+    //
+    // &.--mp {
+    //   //background-image: url('/bio-mike-perovich.png');
+    // }
+    //
+    // &.--jl {
+    //   //background-image: url('/bio-john-lansink.png');
+    // }
   }
 
 
@@ -375,6 +380,7 @@ section.agc-about-bio {
     @media #{$tablet-only} {
       // was 66.66%
       width: 100%;
+      //changed padding top to reflect zeplin design
       padding: 40px 0 0 0px;
     }
 
@@ -397,7 +403,7 @@ section.agc-about-bio {
       @media #{$phone-only} {
         order: 1;
       }
-
+      //added to change order on tablet
       @media #{$tablet-only} {
         order: 1;
       }
