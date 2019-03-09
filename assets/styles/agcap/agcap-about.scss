@@ -397,6 +397,10 @@ section.agc-about-bio {
       @media #{$phone-only} {
         order: 1;
       }
+
+      @media #{$tablet-only} {
+        order: 1;
+      }
     }
 
     .agc-bio-text {

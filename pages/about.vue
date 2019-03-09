@@ -101,6 +101,7 @@
         .agcap-title-line
         .agc-bio-inner.--flip
           .agc-bio-image.--jd
+            img(src="/bio-john-deputter.png")
           .agc-bio-text
             p
               |John DePutter founded DePutter Publishing Ltd. in 1981. As President of DePutter Publishing for nearly four decades, John possesses a thorough knowledge and insight of commodity markets, grain marketing strategies, and risk management.
@@ -119,6 +120,7 @@
         .agcap-title-line
         .agc-bio-inner
           .agc-bio-image.--ga
+            img(src="/bio-greg-andrukow.png")
           .agc-bio-text
             p
               |Greg Andrukow is President / CEO of SDMC Ag Inc. and Point Forward Solutions Inc., which specialize in cutting-edge precision agriculture solutions.
@@ -135,6 +137,7 @@
         .agcap-title-line
         .agc-bio-inner.--flip
           .agc-bio-image.--mp
+            img(src="/bio-mike-perovich.png")
           .agc-bio-text
             p
               |Mike Perovich was raised on a tobacco/cash crop farm in Elgin County, Ontario, where the family also ran a farm supply business.
@@ -153,6 +156,7 @@
         .agcap-title-line
         .agc-bio-inner
           .agc-bio-image.--jl
+            img(src="/bio-john-lansink.png")
           .agc-bio-text
             p
               |John Lansink grew up on a small farm outside of London, Ontario. The family hog farming business grew very large until its closure in 2004.
