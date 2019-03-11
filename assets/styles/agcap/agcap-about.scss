@@ -150,11 +150,20 @@ section.agc-about-intro {
   a {
     margin-top: 15px;
   }
+
+
+
 }
 
 .agc-intro-vision-omega {
   display: block;
   margin: 55px 8% 0;
+
+  h2 {
+
+    text-transform: capitalize;
+
+  }
 
   @media #{$tablet-only} {
     margin-top: 60px;
@@ -245,6 +254,12 @@ section.agc-about-bio {
   display: flex;
   flex-direction: column;
 
+    h4{
+
+      padding-bottom: 10px;
+
+    }
+
   @media #{$phone-only} {
     // n+3 because the first child is a <p>
     // badboidevtimes, this selects the 2nd bio onward
@@ -312,8 +327,8 @@ section.agc-about-bio {
     }
 
     @media #{$laptop-up} {
-
-      width: 30%;
+      //was 30%
+      width: 45%;
 
     }
 
@@ -349,7 +364,7 @@ section.agc-about-bio {
     }
 
     @media #{$laptop-up} {
-      width: 70%;
+      width: 55%;
       padding: 10px 0 0 50px;
     }
 
