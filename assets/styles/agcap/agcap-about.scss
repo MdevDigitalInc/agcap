@@ -138,7 +138,6 @@ section.agc-about-intro {
 }
 
 // Toggle Logic
-
 .agc-intro-vision-alpha {
   display: none;
 
@@ -155,6 +154,10 @@ section.agc-about-intro {
 .agc-intro-vision-omega {
   display: block;
   margin: 55px 8% 0;
+
+  h2 {
+    text-transform: capitalize;
+  }
 
   @media #{$tablet-only} {
     margin-top: 60px;
@@ -245,6 +248,10 @@ section.agc-about-bio {
   display: flex;
   flex-direction: column;
 
+  h4{
+    padding-bottom: 10px;
+  }
+
   @media #{$phone-only} {
     // n+3 because the first child is a <p>
     // badboidevtimes, this selects the 2nd bio onward
@@ -291,58 +298,37 @@ section.agc-about-bio {
     flex-wrap: wrap;
   }
 
+  @media #{$tablet-only} {
+    flex-wrap: wrap;
+  }
+
   .agc-bio-image {
     order: 1;
-    border-radius: 4px;
-    box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
-    max-width: 300px;
-    background-color: $white;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 215px;
 
     @media #{$phone-only} {
       margin: 0 auto 25px;
-      height: 400px;
     }
 
     @media #{$tablet-only} {
-      width: 33.3%;
-      height: 385px;
+      width: 100%;
     }
 
     @media #{$laptop-up} {
-      width: 30%;
-      height: 400px;
+      width: 45%;
     }
 
     @media #{$desktop-up} {
-      width: 25%;
-      height: 375px;
+      width: 45%;
     }
+  }
 
-    // Images
-
-    &.--jb {
-      background-image: url('/bio-jay-bradshaw.png');
-    }
-
-    &.--jd {
-      background-image: url('/bio-john-deputter.png');
-    }
-
-    &.--ga {
-      background-image: url('/bio-greg-andrukow.png');
-    }
-
-    &.--mp {
-      background-image: url('/bio-mike-perovich.png');
-    }
-
-    &.--jl {
-      background-image: url('/bio-john-lansink.png');
-    }
+  .agc-bio-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 0 7px 0 rgba(12, 12, 12, .2);
+      display: block;
   }
 
   .agc-bio-text {
@@ -350,17 +336,17 @@ section.agc-about-bio {
     order: 2;
 
     @media #{$tablet-only} {
-      width: 66.6%;
-      padding: 10px 0 0 30px;
+      width: 100%;
+      padding: 40px 0 0 0px;
     }
 
     @media #{$laptop-up} {
-      width: 70%;
+      width: 55%;
       padding: 10px 0 0 50px;
     }
 
     @media #{$desktop-up} {
-      width: 75%;
+      width: 55%;
     }
   }
 
@@ -370,6 +356,10 @@ section.agc-about-bio {
       order: 2;
 
       @media #{$phone-only} {
+        order: 1;
+      }
+
+      @media #{$tablet-only} {
         order: 1;
       }
     }
