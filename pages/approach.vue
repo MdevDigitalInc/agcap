@@ -20,8 +20,6 @@
             li
               |Purely agricultural
             li
-              |Provide capital and mentorship
-            li
               |Not correlated with broader stock markets
             li
               |No-publicly listed shares
